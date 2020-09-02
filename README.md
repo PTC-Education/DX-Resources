@@ -5,6 +5,7 @@ This is a collection of learning materials and solutions that illustrate how to 
 * Product Design (CAD)
 * Digital Twin (IoT or AR)
 * Digital Thread (PLM)
+
 Within each objective, solutions are next organzied by the primary technology involved.
 
 # Product Design (CAD)
