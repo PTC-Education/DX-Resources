@@ -10,7 +10,7 @@ Within each objective, solutions are next organzied by the primary technology in
 
 # Product Design (CAD)
 ## PTC Creo Parametric
-| Resource &nbsp;&nbsp;&nbsp;&nbsp; | Description | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Resource &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 |---|---|
 | [Creo Help Centers](https://www.ptc.com/en/support/help/Creo) | Help resources for all Creo products and versions, incudes [Tutorials](https://support.ptc.com/help/creo/creo_pma/r7.0/usascii/#page/tutorials_pma%2Fonline_help%2Faux_files%2Fpma_tutorials.html%23) for the latest versions.|
 | [PTC MathCAD & Creo Parametric Integration Guide](https://apps.ptc.com/schools/curriculum/DX/MathCAD-Creo-DX.pdf) | This guide aims to clarify the process of intergrating MathCAD and Creo Parametric, so that a mathematical output variable in MathCAD can be used to drive a Creo model, or so that the Creo relation can be used as an input variable. |
