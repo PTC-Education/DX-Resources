@@ -3,6 +3,9 @@ A collection of PTC Academic Digital Transformation resources
 
 This is a collection of learning materials and solutions that illustrate how to leverage PTC (and open source) Digital Trasnformation technologies for Academic and IIoT applications. These resources are organized by the primary fundamental objective/technology involved in each; Product Design (CAD), Digital Twin (IoT or AR) or Digital Thread (PLM).
 
+| Table | Test |
+|---|---|
+
 # Product Design (CAD)
 ## Creo
 | [PTC MathCAD & Creo Parametric Integration Guide](https://apps.ptc.com/schools/curriculum/DX/MathCAD-Creo-DX.pdf)
