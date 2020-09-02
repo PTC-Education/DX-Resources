@@ -6,7 +6,8 @@ This is a collection of learning materials and solutions that illustrate how to 
 # Product Design (CAD)
 | Creo | | 
 |---|---|
-| [PTC MathCAD & Creo Parametric Integration Guide](https://apps.ptc.com/schools/curriculum/DX/MathCAD-Creo-DX.pdf) | This guide aims to clarify the process of intergrating MathCAD and Creo Parametric, so that a mathematical output variable in MathCAD can be used to drive a Creo model, or so that the Creo relation can be used as an input variable | [Creo Augmented Reality Experience for CAD Design](https://support.ptc.com/help/creo/creo_pma/r6.0/usascii/index.html#page/fundamentals%2Far_vr%2Fabout_ar_experience_for_cad_design.html%23) | This help content from PTC support covers several topics related to creating a simple Augmented Reality Experience to show your CAD mode or assembly in AR using the Vuforia View (App Store Google Play) app. |
+| [PTC MathCAD & Creo Parametric Integration Guide](https://apps.ptc.com/schools/curriculum/DX/MathCAD-Creo-DX.pdf) | This guide aims to clarify the process of intergrating MathCAD and Creo Parametric, so that a mathematical output variable in MathCAD can be used to drive a Creo model, or so that the Creo relation can be used as an input variable. |
+| [Creo Augmented Reality Experience for CAD Design](https://support.ptc.com/help/creo/creo_pma/r6.0/usascii/index.html#page/fundamentals%2Far_vr%2Fabout_ar_experience_for_cad_design.html%23) | This help content from PTC support covers several topics related to creating a simple Augmented Reality Experience to show your CAD mode or assembly in AR using the Vuforia View (App Store Google Play) app. |
 ## Onshape
 # Digital Twin (IoT or AR)
 ## ThingWorx
