@@ -33,7 +33,12 @@ Within each objective, solutions are next organzied by the primary technology in
 ## Vuforia Studio
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 |---|---|
-| [Create a Model Hierarchy](http://apps.ptc.com/schools/curriculum/DX/Vuforia-Studio-Model-Hierarchy.pdf) | This document outlinesthe steps tocreate a model hierarchy in Vuforia Studio to more easily animate motion of an entire assembly |
+| [Search on the ThingWorx developer portal for "Vuforia"](https://developer.thingworx.com/en/resources/learning-paths#stq=vuforia&stp=1) | The results include several useful learning materials; some specficially included here.| 
+|[Get Started with Vuforia Studio](https://developer.thingworx.com/resources/guides/getting-started-vuforia-studio)| |
+|[Create an Augmented Reality (AR) Experience:](https://developer.thingworx.com/resources/guides/studio-ar-experience-quickstart)| |
+|[Develop an AR Experience Demo:](https://developer.thingworx.com/resources/guides/blue-pump-ar-tutorial)| |
+|[Extend Studio Functionality with Javascript:](https://developer.thingworx.com/resources/guides/extend-studio-javascript)| |
+| [Create a Model Hierarchy](http://apps.ptc.com/schools/curriculum/DX/Vuforia-Studio-Model-Hierarchy.pdf) | This document outlinesthe steps to create a model hierarchy in Vuforia Studio to more easily animate motion of an entire assembly |
 ## Vuforia Engine (SDK)
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 |---|---|
