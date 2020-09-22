@@ -33,11 +33,11 @@ Within each objective, solutions are next organzied by the primary technology in
 ## Vuforia Studio
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 |---|---|
-| [Search on the ThingWorx developer portal for "Vuforia"](https://developer.thingworx.com/en/resources/learning-paths#stq=vuforia&stp=1) | The results include several useful learning materials; some specficially included here.| 
-|[Get Started with Vuforia Studio](https://developer.thingworx.com/resources/guides/getting-started-vuforia-studio)| |
-|[Create an Augmented Reality (AR) Experience:](https://developer.thingworx.com/resources/guides/studio-ar-experience-quickstart)| |
-|[Develop an AR Experience Demo:](https://developer.thingworx.com/resources/guides/blue-pump-ar-tutorial)| |
-|[Extend Studio Functionality with Javascript:](https://developer.thingworx.com/resources/guides/extend-studio-javascript)| |
+| [Search results on ThingWorx Developer Portal for "Vuforia"](https://developer.thingworx.com/en/resources/learning-paths#stq=vuforia&stp=1) | The results include several useful learning materials; some specficially included here...| 
+|[Get Started with Vuforia Studio](https://developer.thingworx.com/resources/guides/getting-started-vuforia-studio)| This Getting Started guide is designed to introduce Developer Portal users to Vuforia Studio.|
+|[Create an Augmented Reality (AR) Experience](https://developer.thingworx.com/resources/guides/studio-ar-experience-quickstart)| In this exercise, you'll combine 3D CAD models and 2D Widgets into an Experience that displays on mobile devices. |
+|[Develop an AR Experience Demo](https://developer.thingworx.com/resources/guides/blue-pump-ar-tutorial)| You’ll build a pump demonstration, and we’ll show you how to capture, store, analyze, and visualize data utilizing Vuforia Studio. |
+|[Extend Studio Functionality with Javascript:](https://developer.thingworx.com/resources/guides/extend-studio-javascript)| Explore the benefits of using Javascript with Studio to extend the capabilities and enhance your AR Experiences |
 | [Create a Model Hierarchy](http://apps.ptc.com/schools/curriculum/DX/Vuforia-Studio-Model-Hierarchy.pdf) | This document outlinesthe steps to create a model hierarchy in Vuforia Studio to more easily animate motion of an entire assembly |
 ## Vuforia Engine (SDK)
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
