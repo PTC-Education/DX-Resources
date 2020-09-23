@@ -1,10 +1,12 @@
 # DX-Resources
-A collection of PTC Academic Digital Transformation resources
+A collection of PTC Academic Digital Transformation Resources
 
 This is a collection of learning materials and solutions that illustrate how to leverage PTC (and open source) [Digital Transformation](https://www.ptc.com/en/industry-insights/digital-transformation) technologies for Academic and IIoT applications. These resources are organized by the primary fundamental objective involved in each:
 * Product Design (CAD)
 * Digital Twin (IoT or AR)
 * Digital Thread (PDM &amp; PLM)
+
+![PTC Academic Digital Transformation Products Map](https://github.com/[pzink-AP]/[DX-Resources]/blob/[master]/images/AP-overview.png?raw=true)
 
 Within each objective, solutions are next organzied by the primary technology involved.
 
