@@ -6,7 +6,7 @@ This is a collection of learning materials and solutions that illustrate how to 
 * Digital Twin (IoT or AR)
 * Digital Thread (PDM &amp; PLM)
 
-![PTC Academic Digital Transformation Products Map](https://github.com/[PTC-Academic]/[DX-Resources]/blob/[master]/images/AP-overview.png?raw=true)
+![PTC Academic Digital Transformation Products Map](https://github.com/PTC-Academic/DX-Resources/blob/master/images/AP-overview.png?raw=true)
 
 Within each objective, solutions are next organzied by the primary technology involved.
 
