@@ -4,7 +4,7 @@ A collection of PTC Academic Digital Transformation resources
 This is a collection of learning materials and solutions that illustrate how to leverage PTC (and open source) [Digital Transformation](https://www.ptc.com/en/industry-insights/digital-transformation) technologies for Academic and IIoT applications. These resources are organized by the primary fundamental objective involved in each:
 * Product Design (CAD)
 * Digital Twin (IoT or AR)
-* Digital Thread (PLM)
+* Digital Thread (PDM &amp; PLM)
 
 Within each objective, solutions are next organzied by the primary technology involved.
 
@@ -76,8 +76,9 @@ Within each objective, solutions are next organzied by the primary technology in
 |---|---|
 | [Remote Assistance Powered by Augmented Reality](https://www.ptc.com/en/products/vuforia/vuforia-chalk) | Learn more about expert capture here, or reach out to PTC for information.  |
 
-# Digital Thread (PLM)
-## Windchill
+# Digital Thread (PDM &amp; PLM)
+## Onshape PDM
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 |---|---|
-|  |  |
+| [Onshape Learning Center - Data Management](https://learn.onshape.com/learn/learning-path/onshape-fundamentals-data-management) | In Onshape, PDM is built into the product. |
+| [PTC Resource Center](https://www.ptc.com/en/Resource-center)| Search for the keyword 'twin' to find relevant publications. |
