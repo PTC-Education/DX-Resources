@@ -26,11 +26,21 @@ Within each objective, solutions are next organzied by the primary technology in
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 |---|---|
 | [Hello ThingWorx!](https://apps.ptc.com/schools/curriculum/DX/HelloThingWorx.pdf) | A simple Hello World ThingWorx example that shows how to use REST API to make a simple IoT temperature dashboard.  ThingWorx and Vuforia Studio both require knowledge of JavaScript. [Learn JS at W3Schools.com](https://www.w3schools.com/js/) |
+
 ## Kepware
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 |---|---|
 | [Kepware Website](https://www.kepware.com/en-us/) | Factory-wide Connectivity for access to the right data, at the right time. [Download a free demo.](https://www.kepware.com/Demo-Downloads/Edge-Thank-You-Page?product=d41a2c0a-e93b-474a-bee3-14c1d27e9428) |
 |[Connect Industrial Devices and Systems](https://developer.thingworx.com/resources/guides/thingworx-kepware-server-guide)|This guide has step-by-step instructions for connecting ThingWorx Kepware Server to ThingWorx Foundation.|
+
+## Other Edge Devices
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
+|---|---|
+| [OPC UA Client](https://www.kepware.com/en-us/products/kepserverex/drivers/opc-ua-client/) | For Raspberry Pi and Arduino, Kepware is not used to connect to ThingWorx. If you would like to have Kepware as the connectivity method you would likely need to use this OCP UA Client, but I am less familiar with this architecture: |
+| [Connect Raspberry Pi to ThingWorx](https://developer.thingworx.com/resources/guides/thingworx-raspberry-pi-quickstart) | Raspberry Pi Resources |
+ | [Connect an Arduino Developer Board Guide](https://developer.thingworx.com/resources/guides/connect-adafruit-feather) | Arduino Resources |
+ | [KepServerEx and LabVIEW](https://www.kepware.com/getattachment/151e8138-b6f5-4e7a-8e01-e6dab30da3d0/LabVIEW_Connectivity_Guide.pdf) | NI Resources |
+
 ## Vuforia Studio
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 |---|---|
