@@ -84,3 +84,6 @@ Within each objective, solutions are next organzied by the primary technology in
 |---|---|
 | [Onshape Learning Center - Data Management](https://learn.onshape.com/learn/learning-path/onshape-fundamentals-data-management) | In Onshape, PDM is built into the product. |
 | [PTC Resource Center](https://www.ptc.com/en/Resource-center)| Search for the keyword 'twin' to find relevant publications. |
+
+
+-- | -- 
