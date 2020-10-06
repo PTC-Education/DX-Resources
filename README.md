@@ -30,7 +30,8 @@ Within each objective, solutions are next organzied by the primary technology in
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 |---|---|
 | [Hello ThingWorx!](https://apps.ptc.com/schools/curriculum/DX/HelloThingWorx.pdf) | A simple Hello World ThingWorx example that shows how to use REST API to make a simple IoT temperature dashboard.  ThingWorx and Vuforia Studio both require knowledge of JavaScript. [Learn JS at W3Schools.com](https://www.w3schools.com/js/) |
-| [ThingWorx Developer Portal - Learning Pathways](https://developer.thingworx.com/en/resources/learning-paths) | A great place to start with ThingWorx, the Developer Portal contains tons of free resources for learning and building IoT solutions with ThingWorx. |
+| [ThingWorx Developer Portal - Learning Pathways](https://developer.thingworx.com/en/resources/learning-paths) | A great place to start with ThingWorx, the Developer Portal contains tons of free resources for learning and building IoT solutions with ThingWorx. Specifically, this course is a good place to start: [Getting Started on the ThingWorx Platform](https://developer.thingworx.com/en/resources/learning-paths/getting-started-on-thingworx-platform)|
+
 
 ## Kepware
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
@@ -84,6 +85,3 @@ Within each objective, solutions are next organzied by the primary technology in
 |---|---|
 | [Onshape Learning Center - Data Management](https://learn.onshape.com/learn/learning-path/onshape-fundamentals-data-management) | In Onshape, PDM is built into the product. |
 | [PTC Resource Center](https://www.ptc.com/en/Resource-center)| Search for the keyword 'twin' to find relevant publications. |
-
-
--- | -- 
