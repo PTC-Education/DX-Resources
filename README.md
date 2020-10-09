@@ -16,6 +16,8 @@ This is a collection of learning materials and technical resources that illustra
     * [Vuforia Chalk](https://github.com/PTC-Academic/DX-Resources#vuforia-chalk)
 * [Digital Thread (PDM &amp; PLM)](https://github.com/PTC-Academic/DX-Resources#digital-thread-pdm--plm)
     * [Onshape PDM](https://github.com/PTC-Academic/DX-Resources#onshape-pdm)
+
+    
 ![PTC Academic Digital Transformation Products Map](https://github.com/PTC-Academic/DX-Resources/blob/master/images/AP-overview.png?raw=true)
 
 Within each objective, solutions are next organzied by the primary technology involved.
