@@ -68,6 +68,7 @@ Within each objective, solutions are next organzied by the primary technology in
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 |---|---|
 | [Vuforia Spatial Toolbox](https://spatialtoolbox.vuforia.com) | The Vuforia Spatial Toolbox and Vuforia Spatial Edge Server make up a shared research platform for exploring spatial computing. |
+|[Video tutorials](https://www.youtube.com/playlist?list=PLhL0fv9JyKMaWhaHmm21J6mgpp841zYYw)|Vuforia Spatial Toolbox Tutorials from the Tufts Center for Engineering Education and Outreach (CEEO)|
 
 ## Vuforia Expert Capture
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
