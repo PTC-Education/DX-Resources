@@ -1,7 +1,7 @@
 # DX-Resources
 A collection of PTC Academic Digital Transformation Resources
 
-This is a collection of learning materials and technical resources that illustrate how to leverage PTC (and open source) [Digital Transformation](https://www.ptc.com/en/industry-insights/digital-transformation) technologies for Academic and IIoT applications. These resources are organized by the primary fundamental objective involved in each, then by primary related product:
+This is a collection of learning materials and technical resources that illustrate how to leverage PTC (and open source) [Digital Transformation](https://www.ptc.com/en/industry-insights/digital-transformation) technologies for Academic and IIoT applications. These resources are organized by the primary fundamental objective involved in each, then by primary related technology:
 * [Product Design (CAD)](https://github.com/PTC-Academic/DX-Resources#product-design-cad)
     * [PTC Creo Parametric](https://github.com/PTC-Academic/DX-Resources#ptc-creo-parametric)
     * [Onshape](https://github.com/PTC-Academic/DX-Resources#onshape)
@@ -19,8 +19,6 @@ This is a collection of learning materials and technical resources that illustra
 
 ## PTC DX Concept Map
 ![PTC Academic Digital Transformation Products Map](https://github.com/PTC-Academic/DX-Resources/blob/master/images/AP-overview.png?raw=true)
-
-Within each objective, solutions are next organzied by the primary technology involved.
 
 # Product Design (CAD)
 ## PTC Creo Parametric
