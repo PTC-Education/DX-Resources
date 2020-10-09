@@ -41,12 +41,17 @@ This is a collection of learning materials and technical resources that illustra
 |---|---|
 | [Hello ThingWorx!](https://apps.ptc.com/schools/curriculum/DX/HelloThingWorx.pdf) | A simple Hello World ThingWorx example that shows how to use REST API to make a simple IoT temperature dashboard.  ThingWorx and Vuforia Studio both require knowledge of JavaScript. [Learn JS at W3Schools.com](https://www.w3schools.com/js/) |
 | [ThingWorx Developer Portal - Learning Pathways](https://developer.thingworx.com/en/resources/learning-paths) | A great place to start with ThingWorx, the Developer Portal contains tons of free resources for learning and building IoT solutions with ThingWorx. Specifically, this course is a good place to start: [Getting Started on the ThingWorx Platform](https://developer.thingworx.com/en/resources/learning-paths/getting-started-on-thingworx-platform)|
-
+|[Getting Started with Manufacturing Apps Learning Path](https://developer.thingworx.com/en/apps/manufacturing#tab-gettingstarted)|ThingWorx can optionallu include some out-of-the-box Manufacutring Apps, to Monitor and Control a manufacturing systems; this learning path is a good starting point.|
+|[How to Display Data in Charts](https://developer.thingworx.com/en/resources/guides/display-data-charts)|This guide will show you how to graphically display multiple data points in a various charts.|
+|[How to send alerts over text with Twilio](http://support.ptc.com/help/thingworx_hc/thingworx_8_hc/en/#page/ThingWorx%2FHelp%2FExtensibility%2FTwilio.html%23%26_ga%3D2.70454672.1483803700.1580137650-2099000272.1553708236)|The ThingWorx Twilio extension provides the ability to send SMS text and voice messages from ThingWorx through the Twilio communication platform.|
+|[How to send alerts over email.](http://support.ptc.com/help/thingworx_hc/thingworx_8_hc/en/#page/ThingWorx%2FHelp%2FExtensibility%2FMail.html%23%26_ga%3D2.115040967.1309540450.1579614259-2099000272.1553708236)|The ThingWorx Mail extension provides the ability to read and send e-mails from ThingWorx through external SMTP mail servers that are made available to it.|
+|[Purging Runtime Data](https://support.ptc.com/help/thingworx_hc/thingworx_8_hc/en/index.html#page/ThingWorx/Help/ModelandDataBestPractices/purgingdata.html)|While PTC does not have an official recommendation on how much data to store, since it is heavily dependent on the use case, it is recommended to have a plan in place for any production system to purge the old data for performance reasons.|
 
 ## Kepware
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 |---|---|
 | [Kepware Website](https://www.kepware.com/en-us/) | Factory-wide Connectivity for access to the right data, at the right time. [Download a free demo.](https://www.kepware.com/Demo-Downloads/Edge-Thank-You-Page?product=d41a2c0a-e93b-474a-bee3-14c1d27e9428) |
+|[How to Connect Kepware to ThingWorx](http://support.ptc.com/help/thingworx_hc/thingworx_8_hc/en/#page/ThingWorx%2FHelp%2FComposer%2FIndustrialConnections%2FIndustrialConnectionsExample.html%23)|Using the Industrial Connections in ThingWorx, you can connect to ThingWorx Kepware Server to model, configure, and bind tags that exist in ThingWorx Kepware Server to Things in the ThingWorx model.|
 |[Connect Industrial Devices and Systems](https://developer.thingworx.com/resources/guides/thingworx-kepware-server-guide)|This guide has step-by-step instructions for connecting ThingWorx Kepware Server to ThingWorx Foundation.|
 | [Industrial Connections Example](http://support.ptc.com/help/thingworx_hc/thingworx_8_hc/en/#page/ThingWorx%2FHelp%2FComposer%2FIndustrialConnections%2FIndustrialConnectionsExample.html%23)| Connect ThingWorx to a Kepware Server to model, configure, and bind tags that exist in ThingWorx Kepware Server to Things in the ThingWorx model. |
 
@@ -89,6 +94,7 @@ This is a collection of learning materials and technical resources that illustra
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 |---|---|
 | [Remote Assistance Powered by Augmented Reality](https://www.ptc.com/en/products/vuforia/vuforia-chalk) | Learn more about expert capture here, or reach out to PTC for information.  |
+|[Vuforia Chalk - Introduction Series](https://www.youtube.com/playlist?list=PLrCBNJga3kdFt0-Ss_O_D1hlh2-Sms02S)|An introduction video series to get started with Vuforia Chalk.|
 
 # Digital Thread (PDM &amp; PLM)
 ## Onshape PDM
