@@ -73,6 +73,7 @@ This is a collection of learning materials and technical resources that illustra
 |[Extend Studio Functionality with Javascript:](https://developer.thingworx.com/resources/guides/extend-studio-javascript)| Explore the benefits of using JavaScript with Studio to extend the capabilities and enhance your AR Experiences |
 | [Create a Model Hierarchy](http://apps.ptc.com/schools/curriculum/DX/Vuforia-Studio-Model-Hierarchy.pdf) | This document outlines the steps to create a model hierarchy in Vuforia Studio to more easily animate motion of an entire assembly |
 |[Bind ThingWorx Data to a 3D Widget](http://support.ptc.com/help/vuforia/studio/en/#page/Studio_Help_Center%2FBeginnerBindTWXData.html%23)|A short tutorial that shows how to add ThingWorx data to an Experience and bind it to a widget.|
+|[How to grant users publish permissions within Vuforia Studio](https://www.ptc.com/en/support/article/CS268110)|This article contains instructions on how to manage common user permissions tasks in Vuforia Studio.|
 
 ## Vuforia Engine (SDK)
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
