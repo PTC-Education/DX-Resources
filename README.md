@@ -21,6 +21,11 @@ This is a collection of learning materials and technical resources that illustra
 ![PTC Academic Digital Transformation Products Map](https://github.com/PTC-Academic/DX-Resources/blob/master/images/AP-overview.png?raw=true)
 
 # Product Design (CAD)
+## PTC MathCAD
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
+|---|---|
+[Example Exercise/Guide](https://apps.ptc.com/schools/curriculum/DX/MathCAD-Creo-DX.pdf)|PTC MathCAD & Creo Parametric Integration Guide|
+
 ## PTC Creo Parametric
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 |---|---|
@@ -79,6 +84,7 @@ This is a collection of learning materials and technical resources that illustra
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 |---|---|
 | [Vuforia (SDK) Developer Portal](https://developer.vuforia.com) | Resources for learning how to leverage Vuforia Engine (SDK). |
+|[Step-by-Step Instructions](https://apps.ptc.com/schools/curriculum/DX/AddImageTargetandCADFile.pdf)|Add an Image Target and Pre-existing CAD File to an Experience|
 
 ## Vuforia Spatial Toolbox
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
@@ -96,7 +102,6 @@ This is a collection of learning materials and technical resources that illustra
 |---|---|
 | [Remote Assistance Powered by Augmented Reality](https://www.ptc.com/en/products/vuforia/vuforia-chalk) | Learn more about expert capture here, or reach out to PTC for information.  |
 |[Vuforia Chalk - Introduction Series](https://www.youtube.com/playlist?list=PLrCBNJga3kdFt0-Ss_O_D1hlh2-Sms02S)|An introduction video series to get started with Vuforia Chalk.|
-|[More resources for getting started can be found at:](https://chalk.vuforia.com/content/vuforia-chalk/en/support.html)|Vuforia Chalk Support|
 
 # Digital Thread (PDM &amp; PLM)
 ## Onshape PDM
