@@ -96,6 +96,7 @@ This is a collection of learning materials and technical resources that illustra
 |---|---|
 | [Remote Assistance Powered by Augmented Reality](https://www.ptc.com/en/products/vuforia/vuforia-chalk) | Learn more about expert capture here, or reach out to PTC for information.  |
 |[Vuforia Chalk - Introduction Series](https://www.youtube.com/playlist?list=PLrCBNJga3kdFt0-Ss_O_D1hlh2-Sms02S)|An introduction video series to get started with Vuforia Chalk.|
+|[More resources for getting started can be found at:](https://chalk.vuforia.com/content/vuforia-chalk/en/support.html)|Vuforia Chalk Support|
 
 # Digital Thread (PDM &amp; PLM)
 ## Onshape PDM
