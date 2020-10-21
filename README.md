@@ -85,7 +85,9 @@ This is a collection of learning materials and technical resources that illustra
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 |---|---|
 | [Vuforia (SDK) Developer Portal](https://developer.vuforia.com) | Resources for learning how to leverage Vuforia Engine (SDK). |
+|[Step-by-Step Instructions](https://apps.ptc.com/schools/curriculum/DX/SetupUnitywithVuforiaSDK.pdf)|Configuring Unity with the Vuforia SDK|
 |[Step-by-Step Instructions](https://apps.ptc.com/schools/curriculum/DX/AddImageTargetandCADFile.pdf)|Add an Image Target and Pre-existing CAD File to an Experience|
+
 
 ## Vuforia Spatial Toolbox
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
