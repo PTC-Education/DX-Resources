@@ -75,6 +75,7 @@ This is a collection of learning materials and technical resources that illustra
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 |---|---|
 |[Vuforia Studio Academic Installation Guide](https://apps.ptc.com/schools/curriculum/DX/VS-Academic-Install.pdf)|Installing Vuforia Studio (local AR authoring enviroinment), for Academic Vuforia Studio Users|
+|[Vuforia Studio Tutorials and FAQs](http://support.ptc.com/help/vuforia/studio/en/#page/Studio_Help_Center%2FTutorialWelcome.html%23)|Tutorials and FAQs for various Vuforia Studio experience levels.|
 | [Search results on ThingWorx Developer Portal for "Vuforia"](https://developer.thingworx.com/en/resources/learning-paths#stq=vuforia&stp=1) | The results include several useful learning materials; some specfically included here...| 
 |[Get Started with Vuforia Studio](https://developer.thingworx.com/resources/guides/getting-started-vuforia-studio)| This Getting Started guide is designed to introduce Developer Portal users to Vuforia Studio.|
 |[Create an Augmented Reality (AR) Experience](https://developer.thingworx.com/resources/guides/studio-ar-experience-quickstart)| In this exercise, you'll combine 3D CAD models and 2D Widgets into an Experience that displays on mobile devices. |
