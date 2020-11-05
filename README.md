@@ -128,7 +128,7 @@ This is a collection of learning materials and technical resources that illustra
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 |---|---|
 | [BYU's Yuri Hovanski Webinar](https://players.brightcove.net/1532789042001/HknUe20R_default/index.html?videoId=6146274139001) | Mechanical Engineering professor talks about teaching IoT to first year engineering students |
-| [Smart Manufacturing Supporting Documents](https://github.com/PTC-Academic/DX-Resources/tree/master/Smart%20Manufacturing%20Supporting%20Documents) | A collection of articles on the theories motivating the push for smart manufacturing, from digitizing and connecting machines to visualizing information in augmented reality |
+| [Smart Manufacturing Supporting Documents](https://github.com/PTC-Academic/DX-Resources/tree/master/Curriculum%20Resources/Smart%20Manufacturing%20Supporting%20Documents) | A collection of articles on the theories motivating the push for smart manufacturing, from digitizing and connecting machines to visualizing information in augmented reality |
 
 ## Design Education
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
