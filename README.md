@@ -93,7 +93,17 @@ This is a collection of learning materials and technical resources that illustra
 | [Vuforia (SDK) Developer Portal](https://developer.vuforia.com) | Resources for learning how to leverage Vuforia Engine (SDK). |
 |[Step-by-Step Instructions](https://apps.ptc.com/schools/curriculum/DX/SetupUnitywithVuforiaSDK.pdf)|Configuring Unity with the Vuforia SDK|
 |[Step-by-Step Instructions](https://apps.ptc.com/schools/curriculum/DX/AddImageTargetandCADFile.pdf)|Add an Image Target and Pre-existing CAD File to an Experience|
-
+|[]()||
+|[]()||
+|[]()||
+|[]()||
+|[]()||
+|[]()||
+|[]()||
+|[]()||
+|[]()||
+|[]()||
+|[]()||
 
 ## Vuforia Spatial Toolbox
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
@@ -111,6 +121,8 @@ This is a collection of learning materials and technical resources that illustra
 |---|---|
 | [Remote Assistance Powered by Augmented Reality](https://www.ptc.com/en/products/vuforia/vuforia-chalk) | Learn more about expert capture here, or reach out to PTC for information.  |
 |[Vuforia Chalk - Introduction Series](https://www.youtube.com/playlist?list=PLrCBNJga3kdFt0-Ss_O_D1hlh2-Sms02S)|An introduction video series to get started with Vuforia Chalk.|
+|[Installing Vuforia Chalk Guide](https://apps.ptc.com/schools/curriculum/DX/Chalk_guide.pdf)|A written guide that walks a user through intalling Vuforia Chalk.|
+
 
 # Digital Thread (PDM &amp; PLM)
 ## Onshape PDM
