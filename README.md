@@ -93,17 +93,10 @@ This is a collection of learning materials and technical resources that illustra
 | [Vuforia (SDK) Developer Portal](https://developer.vuforia.com) | Resources for learning how to leverage Vuforia Engine (SDK). |
 |[Step-by-Step Instructions](https://apps.ptc.com/schools/curriculum/DX/SetupUnitywithVuforiaSDK.pdf)|Configuring Unity with the Vuforia SDK|
 |[Step-by-Step Instructions](https://apps.ptc.com/schools/curriculum/DX/AddImageTargetandCADFile.pdf)|Add an Image Target and Pre-existing CAD File to an Experience|
-|[]()||
-|[]()||
-|[]()||
-|[]()||
-|[]()||
-|[]()||
-|[]()||
-|[]()||
-|[]()||
-|[]()||
-|[]()||
+|[Vuforia Quick Installation Guide - Windows](https://apps.ptc.com/schools/curriculum/DX/Install_Vuforia.pdf)|How to install the Vuforia Engine/SDK in Unity.|
+|[Vuforia Quick Installation Guide - MacOS](https://apps.ptc.com/schools/curriculum/DX/Install_Vuforia_MacOS.pdf)|How to install the Vuforia Engine/SDK in Unity.|
+|[Add an Image Target to Your Experience ](https://apps.ptc.com/schools/curriculum/DX/Add%20an%20Image%20Target%20and%20CAD%20File.pdf)|This guide will show you how to Add an Image Target to Your Experience and Import Pre-Existing CAD Files |
+|[From PTC Creo 3.0 to Vuforia 5.5](https://apps.ptc.com/schools/curriculum/DX/Creo_to_Vuforia.pdf)|In this guide you will learn how to Augment your PTC Creo 3.0 models with PTC Vuforia|
 
 ## Vuforia Spatial Toolbox
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
