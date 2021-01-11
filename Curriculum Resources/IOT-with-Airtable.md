@@ -2,22 +2,13 @@
 
 **Estimated time to complete** 20 - 30 minutes
 
-## Requirements
-1. LEGO SPIKE Prime Hub & LEGO build
-2. LEGO Education product feedback pamphlet
-3. Computer with Bluetooth capabilities
-4. Vuforia Spatial Toolbox compatible device
-5. Vuforia Spatial Edge Server download from GitHub
-6. Vuforia Spatial Toolbox app
+## Overview
+Airtable is an open-source collaborative database service. It can be used as an example of IOT connectivity that allows users to send data between different objects and see those changes update in real time between the environments. In this example, using IOT, data will be sent between Airtable, Vuforia Spatial Toolbox, and the LEGO SPIKE Prime using an API connection.
 
-## Getting Started
-Airtable is an open-source collaborative database service. It can be used as an example of IOT connectivity that allows users to send data between different objects and see those changes update in real time between the environments. In this example, using IOT, data will be sent between Airtable, Vuforia Spatial Toolbox, and the SPIKE Prime using an API connection.
-
-## Hardware Edits
-As mentioned in the SPIKE Prime Hardware Build PDF, this activity serves its best purpose when additional parts are connected to the SPIKE Prime Hub. In the images below, the distance sensor from the SPIKE Prime has been added to the build. If the distance sensor is not available, the pressure sensor can be substituted in to serve the same purpose.
+## Hardware Requirements
+This activity references a [LEGO SPIKE Prime](https://education.lego.com/en-us/meetspikeprime#science) Hub. 
 
 ## Setting Up Airtable
-
 1. Visit https://airtable.com/
 2. Click “Get started” to create a free account or sign in.
 3. Make sure the “Bases” tab is selected
@@ -28,7 +19,6 @@ As mentioned in the SPIKE Prime Hardware Build PDF, this activity serves its bes
     ## ![New Airtable Database](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/6-image001.png)
     - The table will be named “Table 1” by default. Keep this name, as it is the table name used when using the API to connect Airtable to Vuforia Spatial Toolbox. 
     - The API used to connect Airtable to Vuforia Spatial Toolbox is a XMLHttpRequest API, which is an object whose methods transfer data between a web browser and web server.
-
 6. Only two columns are needed for this project, so right click the heading of any extra fields and select “delete field”
 7. Change the names of the columns. The first column should be named Variables and the second should be Value. Variables should be a “Single line text” field type and Value should be a “Long text” field type. The table should now look like the image below.
     #### Troubleshooting:
@@ -63,7 +53,7 @@ Before using the Airtable tool, it needs to be configured with the unique data f
 3. The tool is now configured for a specific base inside of Airtable. The Airtable tool inside of Vuforia Spatial Toolbox will only take in data from this specific table. To send/receive data from a different table, go back into airtable.js and repeat step 2.
 
 ## Airtable API in Vuforia Spatial Toolbox
-This section will instruct how to create a connection between Airtable, Vuforia Spatial Toolbox, and the SPIKE Prime.
+This section will instruct how to create a connection between Airtable, Vuforia Spatial Toolbox, and the LEGO SPIKE Prime.
 
 1. If it is not already running, start the Vuforia Spatial Edge Server and open the
     Vuforia Spatial Toolbox app
@@ -97,4 +87,3 @@ This section will instruct how to create a connection between Airtable, Vuforia 
     #### Troubleshooting:
     - If there are any issues with these steps, restart the server and close out of the app. Common issues may be: faulty server startup, failure to connect the SPIKE Prime to Vuforia Spatial Toolbox, and the computer and iPhone/iPad being on different Wi-Fi networks.
 
-<-- Go back to [Fast Fourier Transform Activity](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/5-FFT-Activity.md) or continue to [Appendices and Additional Resources](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/7-Appendices-and-Resources.md) -->
