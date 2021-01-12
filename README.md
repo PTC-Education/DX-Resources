@@ -57,6 +57,11 @@ This is a collection of learning materials and technical resources that illustra
 |[Utilizing ThingWorx Projects](https://apps.ptc.com/schools/curriculum/DX/Utilizing-ThingWorx-Projects.pdf)|Learn to use projects to organize, export and import entities in ThingWorx. |
 |[Connect Raspberry Pi to ThingWorx](https://developer.thingworx.com/resources/guides/thingworx-raspberry-pi-quickstart)|Connect a Raspberry Pi to ThingWorx using the Edge Micro Server (EMS).|
 
+## Other IoT Technolgies
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
+|---|---|
+| [Learn About IOT Using Airtable](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum%20Resources/DX-Exercises/IOT-with-Airtable.md) | How to setup an Airtable database service to connect to Vuforia Spatial Toolbox. Airtablle can be used as a way to store Spatial Toolbox data online, accessible through an API key. |
+
 ## Kepware
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 |---|---|
