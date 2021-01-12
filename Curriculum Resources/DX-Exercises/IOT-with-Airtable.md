@@ -5,8 +5,8 @@
 ## Overview
 Airtable is an open-source collaborative database service. It can be used as an example of IOT connectivity that allows users to send data between different objects and see those changes update in real time between the environments. In this example, using IOT, data will be sent between Airtable, Vuforia Spatial Toolbox, and the LEGO SPIKE Prime using an API connection.
 
-## Hardware Requirements
-This activity references a [LEGO SPIKE Prime](https://education.lego.com/en-us/meetspikeprime#science) Hub. 
+<!--## Hardware Requirements
+This activity references a [LEGO SPIKE Prime](https://education.lego.com/en-us/meetspikeprime#science) Hub. -->
 
 ## Setting Up Airtable
 1. Visit https://airtable.com/
@@ -52,7 +52,7 @@ Before using the Airtable tool, it needs to be configured with the unique data f
     ## ![Airtable Base ID](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/6-image010.png)
 3. The tool is now configured for a specific base inside of Airtable. The Airtable tool inside of Vuforia Spatial Toolbox will only take in data from this specific table. To send/receive data from a different table, go back into airtable.js and repeat step 2.
 
-## Airtable API in Vuforia Spatial Toolbox
+<!--## Airtable API in Vuforia Spatial Toolbox
 This section will instruct how to create a connection between Airtable, Vuforia Spatial Toolbox, and the LEGO SPIKE Prime.
 
 1. If it is not already running, start the Vuforia Spatial Edge Server and open the
@@ -85,5 +85,5 @@ This section will instruct how to create a connection between Airtable, Vuforia 
 10. Type an integer between 0- 100 in the first row of the Value column next to Motor in Airtable, which will be the percentage of full speed that the motor is run at. Notice that this starts the rotation of the motor.
        -  To stop the motor, enter 0 into Airtable
     #### Troubleshooting:
-    - If there are any issues with these steps, restart the server and close out of the app. Common issues may be: faulty server startup, failure to connect the SPIKE Prime to Vuforia Spatial Toolbox, and the computer and iPhone/iPad being on different Wi-Fi networks.
+    - If there are any issues with these steps, restart the server and close out of the app. Common issues may be: faulty server startup, failure to connect the SPIKE Prime to Vuforia Spatial Toolbox, and the computer and iPhone/iPad being on different Wi-Fi networks.-->
 
