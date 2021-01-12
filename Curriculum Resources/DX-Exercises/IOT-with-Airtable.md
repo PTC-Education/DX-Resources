@@ -3,7 +3,7 @@
 **Estimated time to complete** 20 - 30 minutes
 
 ## Overview
-Airtable is an open-source collaborative database service. It can be used as an example of IOT connectivity that allows users to send data between different objects and see those changes update in real time between the environments. In this example, using IOT, data will be sent between Airtable, Vuforia Spatial Toolbox, and the LEGO SPIKE Prime using an API connection.
+Airtable is an open-source collaborative database service. It can be used as an example of IOT connectivity that allows users to send data between different objects and see those changes update in real time between the environments. In this example, using IOT, data can be sent between Airtable and Vuforia Spatial Toolbox.
 
 <!--## Hardware Requirements
 This activity references a [LEGO SPIKE Prime](https://education.lego.com/en-us/meetspikeprime#science) Hub. -->
@@ -15,7 +15,7 @@ This activity references a [LEGO SPIKE Prime](https://education.lego.com/en-us/m
 4. Click “Add a base” to start creating a database
     - Choose the “Start from scratch” option.
     - Give the base a name. The color of the base icon can be changed, and other customizations can be added if desired.
-5. Click on the newly created database. The database that opens should lookl similar to the one below.
+5. Click on the newly created database. The database that opens should look similar to the one below.
     ## ![New Airtable Database](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/6-image001.png)
     - The table will be named “Table 1” by default. Keep this name, as it is the table name used when using the API to connect Airtable to Vuforia Spatial Toolbox. 
     - The API used to connect Airtable to Vuforia Spatial Toolbox is a XMLHttpRequest API, which is an object whose methods transfer data between a web browser and web server.
