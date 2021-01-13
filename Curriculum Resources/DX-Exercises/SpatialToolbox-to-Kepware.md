@@ -1,24 +1,26 @@
 # Using Vuforia Spatial Toolbox with Kepware to Connect to Allen-Bradley PLCs
  
 ## Hardware Needed: ### 
-This tutorial was written and tested with two Allen-Bradley PLCs, a [Micro850](https://literature.rockwellautomation.com/idc/groups/literature/documents/um/2080-um002_-en-e.pdf ) and a [CompactLogix 5840](https://literature.rockwellautomation.com/idc/groups/literature/documents/um/5069-um002_-en-p.pdf).
+ - An Allen Bradley PLC (This tutorial was written and tested with two Allen-Bradley PLCs, a [Micro850](https://literature.rockwellautomation.com/idc/groups/literature/documents/um/2080-um002_-en-e.pdf ) and a [CompactLogix 5840](https://literature.rockwellautomation.com/idc/groups/literature/documents/um/5069-um002_-en-p.pdf).)
+ - An Ethernet Cable  
+ - Windows Computer (This tutorial utilized a NUC)  
 
-An Ethernet Cable  
-Windows Computer (This tutorial utilized a NUC)  
-
-## Connecting Micro850 to Windows ### 
+## Connecting the PLC to Windows ### 
 Download [Connected Components Workbench (CCW)](https://compatibility.rockwellautomation.com/Pages/MultiProductFindDownloads.aspx?crumb=112&refSoft=1&toggleState=&versions=57681) 
- - Use [this](https://www.youtube.com/watch?v=BU7O8KXfdPA&ab_channel=TimWilborne) video from 2:39-8min to configure your specific PLC with CCW
+ - Use [THIS](https://www.youtube.com/watch?v=BU7O8KXfdPA&ab_channel=TimWilborne) video from 2:39-8min to configure your specific PLC with CCW
 
 Once your device is connected to CCW, try making a simple "Hello World" demo. A possible demo could be to use the Timer (TON) within CCW to turn your outputs on and off repeatedly. 
- - [Here](https://www.youtube.com/watch?v=CI7o78YogGw&ab_channel=InsightsInAutomation) is a video that goes through this process
+ - [HERE](https://www.youtube.com/watch?v=CI7o78YogGw&ab_channel=InsightsInAutomation) is a video that goes through this process
 
 After you create a simple demo program, click on the `Micro850` tab and select `Ethernet` on the bottom right. Once selected, scroll down on the right side and select “Configure IP address and settings” underneath **Internet Protocol (IP) Settings**.  
  - Adjust the IP to your settings. For us, we set the IP Address to 192.168.0.2, the Subnet Mask to 255.255.255.0, and the Gateway Address to 192.168.0.1 
 
-## Connecting Micro850 to Kepware 
+Your Allen-Bradley PLC should now be fully connected to your Windows Computer
 
-### Download Thingworx Kepware Server  
+## Connecting the PLC to Kepware 
+
+[Download Thingworx Kepware Server](https://developer.thingworx.com/en/platform)
+
 Once you open Kepware, you can add a Channel and select “Allen-Bradley Micro850 Ethernet” 
 Here is a link to a video that walks through the different settings:  
 https://www.youtube.com/watch?v=KRFA9YutiUs&ab_channel=LearnWithPro-Tutorial 
