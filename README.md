@@ -40,6 +40,7 @@ This is a collection of learning materials and technical resources that illustra
 ## Onshape
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 |---|---|
+|[Get started with Onshape for Students & Educators](https://www.onshape.com/en/education/)|Professional-grade 3D CAD accessible from any device, anywhere, anytime. Built for teams, Onshape lets everyone design together in real time. Nothing to get in the way of design: no installing, saving, or syncing.|
 | [Onshape Learning Center](https://learn.onshape.com) | Start with the Learning Pathways in the Self-Paced Courses section for lots of great learning content. For specific searches, see the [Onshape Help Center](https://cad.onshape.com/help) or, for even more specific questions, search the [Onshape Forum](https://forum.onshape.com). |
 # Digital Twin (IoT or AR)
 
