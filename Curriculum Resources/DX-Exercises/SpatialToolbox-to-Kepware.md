@@ -1,15 +1,15 @@
 # Using Vuforia Spatial Toolbox with Kepware to Connect to Allen-Bradley PLCs 
  
 ## Hardware Needed:  
-This tutorial was written and tested with two Allen-Bradley PLCs, a [Micro850](https://literature.rockwellautomation.com/idc/groups/literature/documents/um/2080-um002_-en-e.pdf ) and a CompactLogix 5840.
+This tutorial was written and tested with two Allen-Bradley PLCs, a [Micro850](https://literature.rockwellautomation.com/idc/groups/literature/documents/um/2080-um002_-en-e.pdf ) and a [CompactLogix 5840](https://literature.rockwellautomation.com/idc/groups/literature/documents/um/5069-um002_-en-p.pdf).
 
 ###
 An Ethernet Cable  
-Windows Computer (I used the NUC)  
+Windows Computer (This tutorial utilized a NUC)  
 
 ## Connecting Micro850 to Windows 
-Download Connected Components Workbench (CCW) 
-I used this video: https://www.youtube.com/watch?v=BU7O8KXfdPA&ab_channel=TimWilborne 
+Download [Connected Components Workbench (CCW)](https://compatibility.rockwellautomation.com/Pages/MultiProductFindDownloads.aspx?crumb=112&refSoft=1&toggleState=&versions=57681) 
+- Use this video from 2:39-8min to configure your specific PLC with CCW: https://www.youtube.com/watch?v=BU7O8KXfdPA&ab_channel=TimWilborne 
 Started at 2:39min and stopped at 8min  
 After this, I used this video to help make a “Hello World.” I recommend googling different resources to familiarize yourself with CCW.  
 https://www.youtube.com/watch?v=CI7o78YogGw&ab_channel=InsightsInAutomation 
