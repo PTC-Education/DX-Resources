@@ -20,17 +20,24 @@ Your Allen-Bradley PLC should now be fully connected to your Windows Computer
 ## Connecting the PLC to Kepware 
 
 [Download Thingworx Kepware Server](https://developer.thingworx.com/en/platform)
+<br />
+[Download Java](https://java.com/en/download/manual.jsp)
 
-Once you open Kepware, you can add a Channel and select “Allen-Bradley Micro850 Ethernet” 
-Here is a link to a video that walks through the different settings:  
-https://www.youtube.com/watch?v=KRFA9YutiUs&ab_channel=LearnWithPro-Tutorial 
-Watch until 9:50  
-Important to note (minute 5:35): Notice how the video says to have the same address for the variable as in CCW. This address may look something like this --> _IO_EM_DO_01 
-Add all of your variables that you want for the Micro850 here 
+Once you open Kepware, you can right click "Connectivity" and add a new Channel:
+<br /><br />
+<img src="https://github.com/PTC-Academic/DX-Resources/blob/master/images/VST-PLC-image001.png" alt="Adding a new Channel on Kepware" width="300">
 
-### Additional Resource: https://developer.thingworx.com/resources/learning-paths/using-allen-bradley-plc-thingworx/connect-allen-bradley-plc/configure-thingworx-kepware-server 
-Another Note: As I was figuring everything out, Peter helped fix an error that I was getting when running Kepware which was to download this: https://java.com/en/download/manual.jsp 
-This may not need to be downloaded, but if you are running into a bug on Kepware this may fix it 
+[THIS](https://www.youtube.com/watch?v=KRFA9YutiUs&ab_channel=LearnWithPro-Tutorial ) video walks through the next few steps of the different settings to alter (watch until 9:50min).
+ - **IMPORTANT:** Notice at minute 5:35 how the video says to have the same address for the tag (variable) as in CCW. This address may look something like `_IO_EM_DO_01`. If the tag addresses for all your variables do not match the ones in CCW, the connection with Kepware will not work. 
+
+To test the connection between your PLC and Kepware:
+ - First, on CCW, connect you PLC and begin to run your "Hello World" program. This can be done by clicking "Disconnect" at the top. If your "Hello World" program does not run in a loop, just click "Disconnect" so that it says "Connected" but do not run the program yet. 
+ - Next, on Kepware click the "Quick Client" button:
+ <br /><br />
+<img src="https://github.com/PTC-Academic/DX-Resources/blob/master/images/VST-PLC-image002.png" alt="Quick Client Button" width="400">
+ - Once this is clicked, it should open a new window. In the new window select `Chanel1.["name of your PLC"]`. The quality should be labeled as "Good" and once your program on CCW runs (or if it is already running) you should see the value update.
+ <br /><br /> 
+<img src="https://github.com/PTC-Academic/DX-Resources/blob/master/images/VST-PLC-image003.png" alt="Quick Client Pannel" width="400">
 
 ## Connecting Kepware to Vuforia Spatial Toolbox 
 
