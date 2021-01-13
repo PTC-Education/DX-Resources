@@ -48,17 +48,23 @@ Your Allen-Bradley PLC should now be fully connected to Kepware
 You can either download the official version through the [Reality Team’s Website](https://spatialtoolbox.vuforia.com/) or you can download the [Intern version](https://github.com/PTC-Academic/SpatialToolbox-Windows-Interns).  
 Both versions are essentially the same, however the Intern version has additional tools and contains a method to connect the Vuforia Spatial Toolbox with the SPIKE Prime.   
 
+### Creating the Connection
+ - Open Kepware and right click on IoT Gateway (on the right side)
+ - Click "New Agent" and give it a name (We left it as "Agent")
+ - Leave this Agent as "Rest Server" 
+ - The URL is http://192.168.0.1:39320/iotgateway/ (This IP address is the same as the Gateway Address under Connecting Micro850 to Windows above)  
+ - Click next and finish
+ - Right click on your Agent and select "Properties". For the General settings it should match the information above, and make sure for "Configuration", "Enabled" is Yes. 
+ - Click on "Server" (under General), the the Network Adapter should be the ethernet connection of the Micro850 (for us this was labeled as `Intel(R) Ethernet Connection (4) I219-V)`
+ - The "Port Number" should be 39320, "Use HTTPS" should be No, everything else afterwards except the URL should be Yes
+ - Click Apply or Ok
+**IMPORTANT** When you save and close out of Kepware, the "Network Adapter" changes back to "Localhost only" for the Agent. Make sure that you change this to the Ethernet Connection above when you open Kepware to insure the connection works. 
 
-Open Kepware and add an IoT Gateway (click “Add Agent”)  
-For the Network Adapter, I chose the ethernet connection of the Micro850 (for me this was labeled as Intel(R) Ethernet Connection (4) I219-V)  
-Important Note: Sometimes when I reopened Kepware after closing it, it would change this back to Local Host. Simply change it back to the correct ethernet connection (if it is not connected to the correct one, it will give an error) 
-The Port Number is 39320 (This was mine)  
-CORS Allowed Origins was left blank  
-Use HTTPS was No  
-Enable Write Endpoint and Allow Anonymous Login were both Yes  
-URL is http://192.168.0.1:39320/iotgateway/ (This IP address is the same as the Gateway Address under Connecting Micro850 to Windows above)  
-Then finally, reinitialize everything (there is a reinitialize button on Kepware)  
-On the Edge Server (once you have your Spatial Toolbox running), click on Manage Hardware Interfaces, and select Kepware (this should be on) 
-The IP should be the same as the IP above: 192.168.0.1 
-You can then restart the server and it all should be connected!  
+After everything above is done, click on "Runtime" above (which is next to "Help") and select reinitialize. If you have the Intern Version of the Spatial Toolbox, follow the instructions on the [README](https://github.com/PTC-Academic/SpatialToolbox-Windows-Interns) to start the server.
+
+When the server starts, navigate to your local host (mine is http://localhost:8080/) on your web browser. Select "Manage Hardware Interfaces" and make sure Kepware is turned on. If it is not on, turn it on and restart the Spatial Toolbox Server in Terminal. Make sure your screen looks like the one below: 
+
+<img src="https://github.com/PTC-Academic/DX-Resources/blob/master/images/VST-PLC-image004.png" alt="Quick Client Pannel" width="600">
+
+After, you should restart the Spatial Toolbox Server once more and now you should be fully connected! See our [Youtube Playlist](https://www.youtube.com/watch?v=TBEV5K3dprA&list=PLhL0fv9JyKMaWhaHmm21J6mgpp841zYYw&index=2&ab_channel=CEEOInnovations) to add image targets and how to use the Spatial Toolbox! 
  
