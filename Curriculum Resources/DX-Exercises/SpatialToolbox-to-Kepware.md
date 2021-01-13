@@ -34,8 +34,7 @@ To test the connection between your PLC and Kepware:
  - First, on CCW, connect you PLC and begin to run your "Hello World" program. This can be done by clicking "Disconnect" at the top. If your "Hello World" program does not run in a loop, just click "Disconnect" so that it says "Connected" but do not run the program yet. 
  - Next, on Kepware click the "Quick Client" button:
 <img src="https://github.com/PTC-Academic/DX-Resources/blob/master/images/VST-PLC-image002.png" alt="Quick Client Button" width="400">
- - Once this is clicked, it should open a new window. In the new window select `Chanel1."name of your PLC"`. The quality should be labeled as "Good" and once your program on CCW runs (or if it is already running) you should see the value update.
-
+ - Once this is clicked, it should open a new window. Select Chanel1.'name of your PLC', The quality should be labeled as "Good" and once your program on CCW runs (or if it is already running) you should see the value update.<br/>
 <img src="https://github.com/PTC-Academic/DX-Resources/blob/master/images/VST-PLC-image003.png" alt="Quick Client Pannel" width="1000">
 
 Your Allen-Bradley PLC should now be fully connected to Kepware
