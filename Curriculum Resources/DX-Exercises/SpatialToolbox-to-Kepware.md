@@ -56,6 +56,7 @@ Both versions are essentially the same, however the Intern version has additiona
  - Click on "Server" (under General), the the Network Adapter should be the ethernet connection of the Micro850 (for us this was labeled as `Intel(R) Ethernet Connection (4) I219-V)`
  - The "Port Number" should be 39320, "Use HTTPS" should be No, everything else afterwards except the URL should be Yes
  - Click Apply or Ok
+ <br/>
 **IMPORTANT** When you save and close out of Kepware, the "Network Adapter" changes back to "Localhost only" for the Agent. Make sure that you change this to the Ethernet Connection above when you open Kepware to insure the connection works. 
 
 After everything above is done, click on "Runtime" above (which is next to "Help") and select reinitialize. If you have the Intern Version of the Spatial Toolbox, follow the instructions on the [README](https://github.com/PTC-Academic/SpatialToolbox-Windows-Interns) to start the server.
