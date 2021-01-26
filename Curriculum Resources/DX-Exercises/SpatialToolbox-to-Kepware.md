@@ -1,4 +1,6 @@
 # Using Vuforia Spatial Toolbox with Kepware to Connect to Allen-Bradley PLCs
+
+**Updating this version while we test the new version of the Kepware VST interface
  
 ## Hardware Needed: ### 
  - An Allen Bradley PLC (This tutorial was written and tested with two Allen-Bradley PLCs, a [Micro850](https://literature.rockwellautomation.com/idc/groups/literature/documents/um/2080-um002_-en-e.pdf ) and a [CompactLogix 5840](https://literature.rockwellautomation.com/idc/groups/literature/documents/um/5069-um002_-en-p.pdf).)
