@@ -1,4 +1,4 @@
-# Digital Transformation Curriculum Case Studies and Resources
+# Digital Transformation Curriculum, Case Studies, and Resources
 ## IoT Course
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 |---|---|
