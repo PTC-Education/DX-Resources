@@ -19,7 +19,7 @@
 ## Digital Twin Strategies
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 |---|---|
-| [UAS Technikum Wien's Horst Orsolits, MSc. Webinar](https://players.brightcove.net/1532789042001/default_default/index.html?videoId=6142604345001) | Head of Competence Center Virtual Technologies & System Engineering discusses strategies for intrating IoT and AR in research and teaching |
+| [UAS Technikum Wien's Horst Orsolits Webinar](https://players.brightcove.net/1532789042001/default_default/index.html?videoId=6142604345001) | Head of Competence Center Virtual Technologies & System Engineering discusses strategies for intrating IoT and AR in research and teaching |
 
 ## Research in Spatial Computing
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
