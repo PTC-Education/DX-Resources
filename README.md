@@ -42,6 +42,7 @@ This is a collection of learning materials and technical resources that illustra
 |---|---|
 |[Get started with Onshape for Students & Educators](https://www.onshape.com/en/education/)|Professional-grade 3D CAD accessible from any device, anywhere, anytime. Built for teams, Onshape lets everyone design together in real time. Nothing to get in the way of design: no installing, saving, or syncing.|
 | [Onshape Learning Center](https://learn.onshape.com) | Start with the Learning Pathways in the Self-Paced Courses section for lots of great learning content. For specific searches, see the [Onshape Help Center](https://cad.onshape.com/help) or, for even more specific questions, search the [Onshape Forum](https://forum.onshape.com). |
+| [Onshape Challenges](https://sites.google.com/view/onshape-challenges/home) | A site developed by researchers at Tufts Center for Engineering Education and Outreach aims to introduce Onshape skills in the context of challenges that go from highly structed to very open-ended.|
 # Digital Twin (IoT or AR)
 
 ## ThingWorx
@@ -58,6 +59,7 @@ This is a collection of learning materials and technical resources that illustra
 |[Installing ThingWorx on Windows - Guide](https://apps.ptc.com/schools/curriculum/DX/ThingWorx-Installation-Guide.pdf)|PTC Academic Guide for Installing ThingWorx on Windows. For local/on-prem ThingWorx installation administrators.|
 |[Utilizing ThingWorx Projects](https://apps.ptc.com/schools/curriculum/DX/Utilizing-ThingWorx-Projects.pdf)|Learn to use projects to organize, export and import entities in ThingWorx. |
 |[Connect Raspberry Pi to ThingWorx](https://developer.thingworx.com/resources/guides/thingworx-raspberry-pi-quickstart)|Connect a Raspberry Pi to ThingWorx using the Edge Micro Server (EMS).|
+|[LabVIEW ThingWorx Integration](https://drive.google.com/drive/folders/1qsV-N3O4sMqzUFs6XQL8vnG4lQ4PpR4_)|Professor Chris Rogers from Tufts University created a library of LabVIEW VI's for reading and updating ThingWorx properties from directly in LabVIEW.|
 
 ## Other IoT Technolgies
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
