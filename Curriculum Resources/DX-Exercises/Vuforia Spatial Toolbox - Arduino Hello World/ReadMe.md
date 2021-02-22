@@ -22,7 +22,7 @@ In Arduino, you should now have the example sketches form the added zip library.
 ### Step 5:
 Launch your Spatial Edge Server by running "node server" from within the "/vuforia-spatial-edge-server" file path. You should now be able to see the web interface manager in your browser at the URL "http://localhost:8080/". From the web interface, under "Manage Hardware Interfaces", you should see an option titled "arduinoUno". Plug your Arduino back into the USB, then turn on the hardware interface. You should now see the "TX" pin on your Arduino blinking, indicating that it is sending information to the server. 
 
-<center><img src="ManageHardwareInterfaces.png" style="width:75%; border:2px solid #000"></img></center>
+<center><img src="ManageHardwareInterfaces.png" style="width:50%; border:2px solid #000"></img></center>
 
 ### Step 6:
 Now go to the "Object Configuration" tab of the web interface. Click "Add Object" and type in "yourObjectName" (or whatever you changed the "yourObjectName" field to in your "readWrite" example sketch). After clicking "Add", you should now see an object appear with that name. Click on "Add Target", then drag a JPG file into the drop zone that appears. Once the image is uploaded, you should see and item called "arduino01" appear under the "yourObjectName" object, and you should now see both the RX and TX lights flashing on your arduino. If you click on "arduino01", you should see info on the nodes included in the object, with the generator value changing. **Note: the image you select will determine how good the tracking is - the busier the image, the better it will be**. 
