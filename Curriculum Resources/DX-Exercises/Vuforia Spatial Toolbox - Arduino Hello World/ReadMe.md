@@ -14,7 +14,7 @@ Start by downloading and installing the Vuforia Spatial Toolbox from one of the 
 Install the basic interfaces addon in the addons folder of your spatial edge server following [these instructions](https://github.com/ptcrealitylab/vuforia-spatial-basic-interfaces-addon). 
 
 ### Step 3:
-You should now have a file structure that looks something like this "/Documents/vuforia-spatial-edge-server/addons/vuforia-spatial-basic-interfaces-addon/interfaces/arduinoUno". In that folder titled "arduinoUno", you should see a zip file titled "Vuforia-Spatial-Arduino-Library.zip". Now in the Adruino IDE, navigate to "Sketch > Inlude Library > Add .zip Library..." and select the "Vuforia-Spatial-Arduino-Library.zip" file.
+You should now have a file structure that looks something like this "/Documents/vuforia-spatial-edge-server/addons/vuforia-spatial-basic-interfaces-addon/interfaces/arduinoUno". In that folder titled "arduinoUno", you should see a zip file titled "Vuforia-Spatial-Arduino-Library.zip" (the file is also available [here](Vuforia-Spatial-Arduino-Library.zip)). Now in the Adruino IDE, navigate to "Sketch > Inlude Library > Add .zip Library..." and select the "Vuforia-Spatial-Arduino-Library.zip" file.
 
 ### Step 4:
 In Arduino, you should now have the example sketches form the added zip library. From "File > Examples > Vuforia-Spatial-Arduino-Library", open the "readWrite" sketch, and upload it to your Arduino device. Once is has been uploaded, disconnect your device from the USB and close the Arduino IDE (this ensures that the serial port is free).
