@@ -1,20 +1,25 @@
 # Using Vuforia Spatial Toolbox with Kepware to Connect to Allen-Bradley PLCs
-
-**Updating this version while we test the new version of the Kepware VST interface
  
 ## Hardware Needed: ### 
- - An Allen Bradley PLC (This tutorial was written and tested with two Allen-Bradley PLCs, a [Micro850](https://literature.rockwellautomation.com/idc/groups/literature/documents/um/2080-um002_-en-e.pdf ) and a [CompactLogix 5840](https://literature.rockwellautomation.com/idc/groups/literature/documents/um/5069-um002_-en-p.pdf).)
+ - An Allen Bradley PLC (This tutorial was written and tested with two Allen-Bradley PLCs, a [Micro850](https://literature.rockwellautomation.com/idc/groups/literature/documents/um/2080-um002_-en-e.pdf ) and a [CompactLogix5480](https://literature.rockwellautomation.com/idc/groups/literature/documents/um/5069-um002_-en-p.pdf).)
  - An Ethernet Cable  
  - Windows Computer (This tutorial utilized a NUC)  
 
-## Connecting the PLC to Windows ### 
-Download [Connected Components Workbench (CCW)](https://compatibility.rockwellautomation.com/Pages/MultiProductFindDownloads.aspx?crumb=112&refSoft=1&toggleState=&versions=57681) 
- - Use [THIS](https://www.youtube.com/watch?v=BU7O8KXfdPA&ab_channel=TimWilborne) video from 2:39-8min to configure your specific PLC with CCW
+## Setting up the PLC 
 
-Once your device is connected to CCW, try making a simple "Hello World" demo. A possible demo could be to use the Timer (TON) within CCW to turn your outputs on and off repeatedly. 
- - [HERE](https://www.youtube.com/watch?v=CI7o78YogGw&ab_channel=InsightsInAutomation) is a video that goes through this process
+###Micro850
+For the Micro850, install [Connected Components Workbench (CCW)](https://compatibility.rockwellautomation.com/Pages/MultiProductFindDownloads.aspx?crumb=112&refSoft=1&toggleState=&versions=57681), following [these instructions](https://www.youtube.com/watch?v=BU7O8KXfdPA&ab_channel=TimWilborne) from 2:39-8min to configure the PLC with CCW. 
 
-After you create a simple demo program, click on the `Micro850` tab and select `Ethernet` on the bottom right. Once selected, scroll down on the right side and select “Configure IP address and settings” underneath **Internet Protocol (IP) Settings**.  
+###CompactLogix5480
+For the CompactLogix5480, install Rockwell Automation Studio 5000 Logix Designer. We used [these lessons](https://twcontrols.com/lessons/how-to-connect-to-an-allen-bradley-controllogix-plc-over-ethernet-with-studio-5000-and-rslinx) to connect to and configure our CompactLogix5480.
+
+## Setting up Networking
+
+Once your device is connected anad you can create a program, make a simple "Hello World" that will activate some of outputs on the PLC. A possible demo could be to use the Timer (TON) within CCW to turn your outputs on and off repeatedly. Here's an example: 
+ - [This video shows the process of using the TON with CCW](https://www.youtube.com/watch?v=CI7o78YogGw&ab_channel=InsightsInAutomation).
+ - [This PDF shows the ladder logic]() for a graffic light demo made in Studio 5000 Logix Designer
+
+After you create a simple demo program, click on the `Micro850` tab and select `Ethernet` on the bottom right. Once selected, scroll down on the right side and select “Configure IP address and settings” underneath **Internet Protocol (IP) Settings**.  s
  - Adjust the IP to your settings. For us, we set the IP Address to 192.168.0.2, the Subnet Mask to 255.255.255.0, and the Gateway Address to 192.168.0.1 
 
 Your Allen-Bradley PLC should now be fully connected to your Windows Computer
