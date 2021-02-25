@@ -40,8 +40,8 @@ For the CompactLogix5480, we used RSLinx to set the Ethernet IP Address to 192.1
 - [Download and install Java](https://java.com/en/download/manual.jsp)
 
 Open Kepware, right-click "Connectivity" and add a new Channel:
-<br />
-![Adding a new Channel on Kepware](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/VST-PLC-image001.png)
+
+[![Adding a new Channel on Kepware](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/VST-PLC-image001.png)]
 
 ### Micro850 and CCW
 [This video](https://www.youtube.com/watch?v=KRFA9YutiUs&ab_channel=LearnWithPro-Tutorial ) walks through the next few steps of the different settings to alter (watch until 9:50min).
