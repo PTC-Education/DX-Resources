@@ -41,7 +41,7 @@ For the CompactLogix5480, we used RSLinx to set the Ethernet IP Address to 192.1
 
 Open Kepware, right-click "Connectivity" and add a new Channel:
 
-[![Adding a new Channel on Kepware](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/VST-PLC-image001.png)]
+## ## ![Adding a new Channel on Kepware](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/VST-PLC-image001.png)
 
 ### Micro850 and CCW
 [This video](https://www.youtube.com/watch?v=KRFA9YutiUs&ab_channel=LearnWithPro-Tutorial ) walks through the next few steps of the different settings to alter (watch until 9:50min).
@@ -51,10 +51,10 @@ To test the connection between your PLC and Kepware:
  - First, on CCW, connect you PLC and begin to run your "Hello World" program. This can be done by clicking "Disconnect" at the top. If your "Hello World" program does not run in a loop, just click "Disconnect" so that it says "Connected" but do not run the program yet. 
  - Next, on Kepware click the "Quick Client" button:
 
-![Quick Client Button"](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/VST-PLC-image002.png)
+## ![Quick Client Button"](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/VST-PLC-image002.png)
  - Once this is clicked, it should open a new window. Select <b>Chanel1."name of your PLC"</b>, The quality should be labeled as "Good" and once your program on CCW runs (or if it is already running) you should see the value update.<br/><br/>
 
-![Quick Client Panel](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/VST-PLC-image003.png)
+## ![Quick Client Panel](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/VST-PLC-image003.png)
 
 ### CompactLogix5480 and Studio 5000
 [This Kepware guide](https://www.kepware.com/getattachment/7ce5cce5-7186-4159-88f0-413980a956ae/ab-controllogix-ethernet-easy-guide.pdf) walks through the same steps for Studio 5000. 
@@ -73,33 +73,33 @@ The Spatial Toolbox uses OPCUA to communicate with Kepware. Once the server is r
 #### Configure OPC UA in Kepware 
 - To Add an OPC server in the Kepware configuration, open OPC UA Configuration from the Kepware config tray icon:
 
-![Kepware config tray icon](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/Kepware-VST-001.png)
+## ![Kepware config tray icon](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/Kepware-VST-001.png)
 
 - Choose the correct adapter (probably wifi, and set a port, or use default. This IP and port will be used in the in the VST edge server Kepware addon configuration.
 
-![Kepware OPC UA Endpoint Definition](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/Kepware-VST-002.png)
+## ![Kepware OPC UA Endpoint Definition](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/Kepware-VST-002.png)
 - Close window with OK
 
 - Create an OPCUA user; open Settings from the Kepware config tray icon:
 
-![Kepware config tray icon](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/Kepware-VST-003.png)
+## ![Kepware config tray icon](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/Kepware-VST-003.png)
 
 - Create an Admin User with the Kepware (ThingWorx Industrial Connectivity) Settings Control Panel:
 
-![Kepware (ThingWorx Industrial Connectivity) Settings Control Panel](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/Kepware-VST-004.png)
+## ![Kepware (ThingWorx Industrial Connectivity) Settings Control Panel](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/Kepware-VST-004.png)
 - Save and close
 
 #### Configure Vuforia Spatial Toolbox Server settings
 - Open a browser and navigate to 'localhost:8080'
 - Click on *Manage Hardware Interfaces* and click the *Settings* icon next to Kepware
 - Enter the *IP:Port*, *username* and *password* in the VST edge server Kepware addon configuration:
-![Spatial Toolbox Hardware Interfaces Kepware Configuration:](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/Kepware-VST-005.png)
+## ![Spatial Toolbox Hardware Interfaces Kepware Configuration:](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/Kepware-VST-005.png)
 
 #### Restart VST Edge server
     - In the terminal where you started it, click 'CTRL-C' to stop it, and then enter 'node server' to start it again
 - Re-open the OPC UA Configuration from the Kepware config tray icon to Trust the rejected certificate:
 
-![OPC UA Configuration Manager, Trusted Clients Tab:](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/Kepware-VST-006.png)
+## ![OPC UA Configuration Manager, Trusted Clients Tab:](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/Kepware-VST-006.png)
 - Click Close and restart VST Edge Server again, and refresh the server web page
 
 #### Reinitialize Kepware
