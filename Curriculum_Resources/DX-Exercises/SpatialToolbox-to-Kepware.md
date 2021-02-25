@@ -34,16 +34,17 @@ For the CompactLogix5480, we used RSLinx to set the Ethernet IP Address to 192.1
 
 **To verify that the PLC should is connected to your Windows Computer, [ping](https://en.wikipedia.org/wiki/Ping_(networking_utility)) the IP address from the command prompt on the computer with ping 192.168.0.2, if the response is some number of ms, they are connected.
 
-## Connects the PLC to Kepware 
+## Connect the PLC to Kepware 
 
-[Download KEPServerEX](https://www.kepware.com/en-us/content-gates/ex-demo-download-content-gate/?product=d2239b8c-36f2-4d07-8fbd-e223d0e26bbf&gate=8a5e8dd5-6edf-4d68-aa36-72f97b11e612) -- this is a free trial, but is fully functional; KEPServerEX will run for 2 hours at a time, then it needs to be restarted. Note, this product is also called "ThingWorx Indsutrical Connectivity".
-[Download Java](https://java.com/en/download/manual.jsp)
+- [Download and install KEPServerEX](https://www.kepware.com/en-us/content-gates/ex-demo-download-content-gate/?product=d2239b8c-36f2-4d07-8fbd-e223d0e26bbf&gate=8a5e8dd5-6edf-4d68-aa36-72f97b11e612) -- this is a free trial, but is fully functional; KEPServerEX will run for 2 hours at a time, then it needs to be restarted. Note, this product is also called "ThingWorx Indsutrical Connectivity".
+- [Download and install Java](https://java.com/en/download/manual.jsp)
 
-Once you open Kepware, you can right click "Connectivity" and add a new Channel:
+Open Kepware, right-click "Connectivity" and add a new Channel:
 <br />
 <img src="https://github.com/PTC-Academic/DX-Resources/blob/master/images/VST-PLC-image001.png" alt="Adding a new Channel on Kepware" width="300">
 
-[THIS](https://www.youtube.com/watch?v=KRFA9YutiUs&ab_channel=LearnWithPro-Tutorial ) video walks through the next few steps of the different settings to alter (watch until 9:50min).
+### Micro850 and CCW
+[This video](https://www.youtube.com/watch?v=KRFA9YutiUs&ab_channel=LearnWithPro-Tutorial ) walks through the next few steps of the different settings to alter (watch until 9:50min).
  - **IMPORTANT:** Notice at minute 5:35 how the video says to have the same address for the tag (variable) as in CCW. This address may look something like `_IO_EM_DO_01`. If the tag addresses for all your variables do not match the ones in CCW, the connection with Kepware will not work. 
 
 To test the connection between your PLC and Kepware:
@@ -53,7 +54,8 @@ To test the connection between your PLC and Kepware:
  - Once this is clicked, it should open a new window. Select <b>Chanel1."name of your PLC"</b>, The quality should be labeled as "Good" and once your program on CCW runs (or if it is already running) you should see the value update.<br/><br/>
 <img src="https://github.com/PTC-Academic/DX-Resources/blob/master/images/VST-PLC-image003.png" alt="Quick Client Pannel" width="1000">
 
-Your Allen-Bradley PLC should now be fully connected to Kepware
+### CompactLogix5480 and Studio 5000
+[This Kepwarea guide](https://www.kepware.com/getattachment/7ce5cce5-7186-4159-88f0-413980a956ae/ab-controllogix-ethernet-easy-guide.pdf) walks through the same steps for Studio 5000. 
 
 ## Connecting Kepware to Vuforia Spatial Toolbox 
 
