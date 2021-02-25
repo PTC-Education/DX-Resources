@@ -14,6 +14,7 @@
 ## Design Education
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 |---|---|
+| [University of Toronto's Alison Olechowski Webinar](https://ptc.zoom.us/rec/share/vNP7ZTrSXW7aOlbn_rW464rklJYLjyjAK98BpmXj0hogyblewNR1hXTcjwd93uOR.l5F6X6SdXsaj1QKB?startTime=1614002103000) | Dr. Alison Olechowski presented the findings from a series of experiments which explore new ways of designing collaboratively in CAD. These experiments consider not only design outcomes like quality and speed, but also designer emotion. Further, she shared preliminary results which indicate that collaborative CAD tools can open new opportunities for the way we teach and learn to design with CAD.|
 | [Purdue University's Karthik Ramani Webinar](https://players.brightcove.net/1532789042001/default_default/index.html?videoId=6155014476001) | Mechanical Engineering professor talks about teaching engineering design to university students by having them build toys|
 
 ## Digital Twin Strategies
@@ -24,4 +25,4 @@
 ## Research in Spatial Computing
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 |---|---|
-| [Reality Lab at PTC Webinar](https://ptc.zoom.us/rec/share/Vh3uykcga8H3MQ5XU2ePvHT9RBrRaODZAiexw84Kr6y_MK8bgYXb0wD95ZKO_JDo.tw6tW_d6ArABwkPG?startTime=1611582471000) | Researchers from the PTC Reality Lab share some of their projects and discuss the open-sourced Spatial Toolbox platform for exploring spatial computing |
+| [Reality Lab at PTC Webinar](https://youtu.be/E_KaqgV_3mA) | Researchers from the PTC Reality Lab share some of their projects and discuss the open-sourced Spatial Toolbox platform for exploring spatial computing |
