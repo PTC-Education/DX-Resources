@@ -41,7 +41,7 @@ For the CompactLogix5480, we used RSLinx to set the Ethernet IP Address to 192.1
 
 Open Kepware, right-click "Connectivity" and add a new Channel:
 <br />
-[![Adding a new Channel on Kepware](https://github.com/PTC-Academic/DX-Resources/blob/master/images/VST-PLC-image001.png)](Adding a new Channel on Kepware)
+[![Adding a new Channel on Kepware](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/VST-PLC-image001.png)]
 
 ### Micro850 and CCW
 [This video](https://www.youtube.com/watch?v=KRFA9YutiUs&ab_channel=LearnWithPro-Tutorial ) walks through the next few steps of the different settings to alter (watch until 9:50min).
@@ -50,9 +50,11 @@ Open Kepware, right-click "Connectivity" and add a new Channel:
 To test the connection between your PLC and Kepware:
  - First, on CCW, connect you PLC and begin to run your "Hello World" program. This can be done by clicking "Disconnect" at the top. If your "Hello World" program does not run in a loop, just click "Disconnect" so that it says "Connected" but do not run the program yet. 
  - Next, on Kepware click the "Quick Client" button:
-<img src="https://github.com/PTC-Academic/DX-Resources/blob/master/images/VST-PLC-image002.png" alt="Quick Client Button" width="400">
+
+[![Quick Client Button"](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/VST-PLC-image002.png)]
  - Once this is clicked, it should open a new window. Select <b>Chanel1."name of your PLC"</b>, The quality should be labeled as "Good" and once your program on CCW runs (or if it is already running) you should see the value update.<br/><br/>
-<img src="https://github.com/PTC-Academic/DX-Resources/blob/master/images/VST-PLC-image003.png" alt="Quick Client Pannel" width="1000">
+
+[![Quick Client Panel](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/VST-PLC-image003.png)]
 
 ### CompactLogix5480 and Studio 5000
 [This Kepware guide](https://www.kepware.com/getattachment/7ce5cce5-7186-4159-88f0-413980a956ae/ab-controllogix-ethernet-easy-guide.pdf) walks through the same steps for Studio 5000. 
@@ -61,34 +63,49 @@ To test the connection between your PLC and Kepware:
 
 ### Download the Spatial Toolbox 
 
-Download and install the spatial toolbox through the [PTC Reality Team’s Website](https://spatialtoolbox.vuforia.com/)
+Download and install the spatial toolbox through the [PTC Reality Team’s Website](https://spatialtoolbox.vuforia.com/docs/use/connect-to-the-physical-world/install-on-windows)
+- After installation, start the toolbox edge server
 
-### onnect Kepware and Spatial Toolbox
+### Connect Kepware and Spatial Toolbox
 
 The Spatial Toolbox uses OPCUA to communicate with Kepware. Once the server is running, follow the steps below to set up Kepware and Spatial Toolbox to work together.
 
 #### Configure OPC UA in Kepware 
-- To Add an OPC server in the Kepware configm, open OPC UA Configuration from the Kepware config tray icon:
+- To Add an OPC server in the Kepware configuration, open OPC UA Configuration from the Kepware config tray icon:
+[![Kepware config tray icon](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/Kepware-VST-001.png)]
 
+- Choose the correct adapter (probably wifi, and set a port, or use default. This IP and port will be used in the in the VST edge server Kepware addon configuration.
+[![Kepware OPC UA Endpoint Definition](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/Kepware-VST-002.png)]
+- Close window with OK
 
+- Create an OPCUA user; open Settings from the Kepware config tray icon:
+[![Kepware config tray icon](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/Kepware-VST-003.png)]
 
- - Open Kepware and right click on IoT Gateway (on the right side)
- - Click "New Agent" and give it a name (We left it as "Agent")
- - Leave this Agent as "Rest Server" 
- - The URL is http://192.168.0.1:39320/iotgateway/ (This IP address is the same as the Gateway Address under Connecting Micro850 to Windows above)  
- - Click next and finish
- - Right click on your Agent and select "Properties". For the General settings it should match the information above, and make sure for "Configuration", "Enabled" is Yes. 
- - Click on "Server" (under General), the the Network Adapter should be the ethernet connection of the Micro850 (for us this was labeled as `Intel(R) Ethernet Connection (4) I219-V)`
- - The "Port Number" should be 39320, "Use HTTPS" should be No, everything else afterwards except the URL should be Yes
- - Click Apply or Ok
- <br/>
-<b>IMPORTANT</b> When you save and close out of Kepware, the "Network Adapter" changes back to "Localhost only" for the Agent. Make sure that you change this to the Ethernet Connection above when you open Kepware to insure the connection works. 
+- Create an Admin User with the Kepware (ThingWorx Industrial Connectivity) Settings Control Panel:
+[![Kepware (ThingWorx Industrial Connectivity) Settings Control Panel](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/Kepware-VST-004.png)]
+- Save and close
 
-After everything above is done, click on "Runtime" above (which is next to "Help") and select reinitialize. If you have the Intern Version of the Spatial Toolbox, follow the instructions on the [README](https://github.com/PTC-Academic/SpatialToolbox-Windows-Interns) to start the server.
+#### Configure Vuforia Spatial Toolbox Server settings
+- Open a browser and navigate to 'localhost:8080'
+- Click on *Manage Hardware Interfaces* and click the *Settings* icon next to Kepware
+- Enter the *IP:Port*, *username* and *password* in the VST edge server Kepware addon configuration:
+[![Spatial Toolbox Hardware Interfaces Kepware Configuration:](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/Kepware-VST-005.png)]
 
-When the server starts, navigate to your local host (mine is http://localhost:8080/) on your web browser. Select "Manage Hardware Interfaces" and make sure Kepware is turned on. If it is not on, turn it on and restart the Spatial Toolbox Server in Terminal. Make sure your screen looks like the one below: 
+#### Restart VST Edge server
+    - In the terminal where you started it, click 'CTRL-C' to stop it, and then enter 'node server' to start it again
+- Re-open the OPC UA Configuration from the Kepware config tray icon to Trust the rejected certificate:
+[![OPC UA Configuration Manager, Trusted Clients Tab:](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/Kepware-VST-006.png)]
+- Click Close and restart VST Edge Server again, and refresh the server web page
 
-<img src="https://github.com/PTC-Academic/DX-Resources/blob/master/images/VST-PLC-image004.png" alt="Quick Client Pannel" width="600">
+#### Reinitialize Kepware
+- In Kepware, click on the "Runtime" menu (next to "Help") and select reinitialize. 
+- You should see feedback in the Kepware interface that 
 
-After, you should restart the Spatial Toolbox Server once more and now you should be fully connected! See our [Youtube Playlist](https://www.youtube.com/watch?v=TBEV5K3dprA&list=PLhL0fv9JyKMaWhaHmm21J6mgpp841zYYw&index=2&ab_channel=CEEOInnovations) to add image targets and how to use the Spatial Toolbox! 
+#### Look for Tags in VST Edge server
+- Click on *Manage Hardware Interfaces* and click the *Settings* icon next to Kepware
+- If the connection is working, you should see any tags/varibles you created in your PLC 
+- Check the tags you want to use; now, if you return to *Object Configureation* and add a target to the *kepware....* object, you will have nodes available for each of the tags. 
+
+#### Have fun!
+To start playing with the toolbox, please see [this Youtube Playlist](https://www.youtube.com/watch?v=TBEV5K3dprA&list=PLhL0fv9JyKMaWhaHmm21J6mgpp841zYYw&index=2&ab_channel=CEEOInnovations) to add image targets and how to use the Spatial Toolbox! 
  
