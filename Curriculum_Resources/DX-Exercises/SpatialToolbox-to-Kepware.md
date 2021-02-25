@@ -17,7 +17,7 @@ For the CompactLogix5480, install Rockwell Automation Studio 5000 Logix Designer
 
 Once your device is connected anad you can create a program, make a simple "Hello World" that will activate some of outputs on the PLC. A possible demo could be to use the Timer (TON) within CCW to turn your outputs on and off repeatedly. Here's an example: 
  - [This video shows the process of using the TON with CCW](https://www.youtube.com/watch?v=CI7o78YogGw&ab_channel=InsightsInAutomation).
- - [This PDF shows the ladder logic](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/Traffic-Light-Demo-withWalk.pdf) for a graffic light demo made in Studio 5000 Logix Designer.
+ - [This PDF shows the ladder logic](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/Traffic-Light-Demo-withWalk.pdf) for a traffic light demo made in Studio 5000 Logix Designer.
 
 ## Set up Networking
 
