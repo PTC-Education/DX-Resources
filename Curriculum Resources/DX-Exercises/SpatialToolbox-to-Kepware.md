@@ -25,11 +25,11 @@ This project used the ethernet (wired) port to create a local network to communi
 - For the wireless connection, a static or dynammic IP will work. 
 - For the wired connection, we gave the computer a static ethernet IP Address: 192.168.0.1; Subnet Mask: 255.255.255.0; Default Gateway and Primary DNS were set to match the gateway and DNS for the wireless connection.
 
-###Set the Micro850 IP address 
+### Set the Micro850 IP address 
 Click on the `Micro850` tab in CCW and select `Ethernet` on the bottom right. Once selected, scroll down on the right side and select “Configure IP address and settings” underneath **Internet Protocol (IP) Settings**.  
  - Adjust the IP to your settings. For us, we set the IP Address to 192.168.0.2, the Subnet Mask to 255.255.255.0, and the Gateway Address to 192.168.0.1 
 
-###Set the CompactLogix5480 IP address 
+### Set the CompactLogix5480 IP address 
 For the CompactLogix5480, we used RSLinx to set the Ethernet IP Address to 192.168.0.2, the Subnet Mask to 255.255.255.0, and the Gateway Address to 192.168.0.1 per the instructions in the CompactLogix5480 user manual.
 
 **To verify that the PLC should is connected to your Windows Computer, [ping](https://en.wikipedia.org/wiki/Ping_(networking_utility)) the IP address from the command prompt on the computer with ping 192.168.0.2, if the response is some number of ms, they are connected.
