@@ -41,7 +41,7 @@ For the CompactLogix5480, we used RSLinx to set the Ethernet IP Address to 192.1
 
 Open Kepware, right-click "Connectivity" and add a new Channel:
 <br />
-<img src="https://github.com/PTC-Academic/DX-Resources/blob/master/images/VST-PLC-image001.png" alt="Adding a new Channel on Kepware" width="300">
+[![Adding a new Channel on Kepware](https://github.com/PTC-Academic/DX-Resources/blob/master/images/VST-PLC-image001.png)](Adding a new Channel on Kepware)
 
 ### Micro850 and CCW
 [This video](https://www.youtube.com/watch?v=KRFA9YutiUs&ab_channel=LearnWithPro-Tutorial ) walks through the next few steps of the different settings to alter (watch until 9:50min).
@@ -55,16 +55,23 @@ To test the connection between your PLC and Kepware:
 <img src="https://github.com/PTC-Academic/DX-Resources/blob/master/images/VST-PLC-image003.png" alt="Quick Client Pannel" width="1000">
 
 ### CompactLogix5480 and Studio 5000
-[This Kepwarea guide](https://www.kepware.com/getattachment/7ce5cce5-7186-4159-88f0-413980a956ae/ab-controllogix-ethernet-easy-guide.pdf) walks through the same steps for Studio 5000. 
+[This Kepware guide](https://www.kepware.com/getattachment/7ce5cce5-7186-4159-88f0-413980a956ae/ab-controllogix-ethernet-easy-guide.pdf) walks through the same steps for Studio 5000. 
 
 ## Connecting Kepware to Vuforia Spatial Toolbox 
 
 ### Download the Spatial Toolbox 
 
-You can either download the official version through the [Reality Team’s Website](https://spatialtoolbox.vuforia.com/) or you can download the [Intern version](https://github.com/PTC-Academic/SpatialToolbox-Windows-Interns).  
-Both versions are essentially the same, however the Intern version has additional tools and contains a method to connect the Vuforia Spatial Toolbox with the SPIKE Prime.   
+Download and install the spatial toolbox through the [PTC Reality Team’s Website](https://spatialtoolbox.vuforia.com/)
 
-### Creating the Connection
+### onnect Kepware and Spatial Toolbox
+
+The Spatial Toolbox uses OPCUA to communicate with Kepware. Once the server is running, follow the steps below to set up Kepware and Spatial Toolbox to work together.
+
+#### Configure OPC UA in Kepware 
+- To Add an OPC server in the Kepware configm, open OPC UA Configuration from the Kepware config tray icon:
+
+
+
  - Open Kepware and right click on IoT Gateway (on the right side)
  - Click "New Agent" and give it a name (We left it as "Agent")
  - Leave this Agent as "Rest Server" 
