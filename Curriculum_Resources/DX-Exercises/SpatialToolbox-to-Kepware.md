@@ -37,7 +37,6 @@ For the CompactLogix5480, we used RSLinx to set the Ethernet IP Address to 192.1
 ## Connecting the PLC to Kepware 
 
 [Download KEPServerEX](https://www.kepware.com/en-us/content-gates/ex-demo-download-content-gate/?product=d2239b8c-36f2-4d07-8fbd-e223d0e26bbf&gate=8a5e8dd5-6edf-4d68-aa36-72f97b11e612) -- this is a free trial, but is fully functional; KEPServerEX will run for 2 hours at a time, then it needs to be restarted. Note, this product is also called "ThingWorx Indsutrical Connectivity".
-<br />
 [Download Java](https://java.com/en/download/manual.jsp)
 
 Once you open Kepware, you can right click "Connectivity" and add a new Channel:

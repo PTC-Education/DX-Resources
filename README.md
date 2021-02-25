@@ -1,4 +1,4 @@
-# DX-Resources
+# DX Resources
 A collection of PTC Academic Digital Transformation (Smart Manufacturing, Industry 4.0) Resources
 
 This is a collection of learning materials and technical resources that illustrate how to leverage PTC (and open source) [Digital Transformation](https://www.ptc.com/en/industry-insights/digital-transformation) technologies for Academic and IIoT applications. These resources are organized by the primary fundamental objective involved in each, then by primary related technology:
@@ -42,6 +42,7 @@ This is a collection of learning materials and technical resources that illustra
 |---|---|
 |[Get started with Onshape for Students & Educators](https://www.onshape.com/en/education/)|Professional-grade 3D CAD accessible from any device, anywhere, anytime. Built for teams, Onshape lets everyone design together in real time. Nothing to get in the way of design: no installing, saving, or syncing.|
 | [Onshape Learning Center](https://learn.onshape.com) | Start with the Learning Pathways in the Self-Paced Courses section for lots of great learning content. For specific searches, see the [Onshape Help Center](https://cad.onshape.com/help) or, for even more specific questions, search the [Onshape Forum](https://forum.onshape.com). |
+| [Onshape Challenges](https://sites.google.com/view/onshape-challenges/home) | A site developed by researchers at Tufts Center for Engineering Education and Outreach aims to introduce Onshape skills in the context of challenges that go from highly structed to very open-ended.|
 # Digital Twin (IoT or AR)
 
 ## ThingWorx
@@ -58,6 +59,7 @@ This is a collection of learning materials and technical resources that illustra
 |[Installing ThingWorx on Windows - Guide](https://apps.ptc.com/schools/curriculum/DX/ThingWorx-Installation-Guide.pdf)|PTC Academic Guide for Installing ThingWorx on Windows. For local/on-prem ThingWorx installation administrators.|
 |[Utilizing ThingWorx Projects](https://apps.ptc.com/schools/curriculum/DX/Utilizing-ThingWorx-Projects.pdf)|Learn to use projects to organize, export and import entities in ThingWorx. |
 |[Connect Raspberry Pi to ThingWorx](https://developer.thingworx.com/resources/guides/thingworx-raspberry-pi-quickstart)|Connect a Raspberry Pi to ThingWorx using the Edge Micro Server (EMS).|
+|[LabVIEW ThingWorx Integration](https://drive.google.com/drive/folders/1qsV-N3O4sMqzUFs6XQL8vnG4lQ4PpR4_)|Professor Chris Rogers from Tufts University created a library of LabVIEW VI's for reading and updating ThingWorx properties from directly in LabVIEW.|
 
 ## Other IoT Technolgies
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
@@ -68,10 +70,10 @@ This is a collection of learning materials and technical resources that illustra
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 |---|---|
 |[Kepware Website](https://www.kepware.com/en-us/) | Factory-wide Connectivity for access to the right data, at the right time. [Download a free demo.](https://www.kepware.com/Demo-Downloads/Edge-Thank-You-Page?product=d41a2c0a-e93b-474a-bee3-14c1d27e9428) |
-|[How to Connect Kepware to ThingWorx](http://support.ptc.com/help/thingworx_hc/thingworx_8_hc/en/#page/ThingWorx%2FHelp%2FComposer%2FIndustrialConnections%2FIndustrialConnectionsExample.html%23)|Using the Industrial Connections in ThingWorx, you can connect to ThingWorx Kepware Server to model, configure, and bind tags that exist in ThingWorx Kepware |||Server to Things in the ThingWorx model.|
+|[How to Connect Kepware to ThingWorx, Industrial Connections Example](http://support.ptc.com/help/thingworx_hc/thingworx_8_hc/en/#page/ThingWorx%2FHelp%2FComposer%2FIndustrialConnections%2FIndustrialConnectionsExample.html%23)|Using the Industrial Connections in ThingWorx, you can connect to ThingWorx Kepware Server to model, configure, and bind tags that exist in ThingWorx Kepware |||Server to Things in the ThingWorx model.|
 |[BYU Smart Manufacturing Instructional Video](https://www.youtube.com/watch?v=8w3yWtPCTsk)|Video showcasing how easy it is to make your factory smart with Thingworx and Kepware|
 |[Connect Industrial Devices and Systems](https://developer.thingworx.com/resources/guides/thingworx-kepware-server-guide)|This guide has step-by-step instructions for connecting ThingWorx Kepware Server to ThingWorx Foundation.|
-|[Industrial Connections Example](http://support.ptc.com/help/thingworx_hc/thingworx_8_hc/en/#page/ThingWorx%2FHelp%2FComposer%2FIndustrialConnections%2FIndustrialConnectionsExample.html%23)| Connect ThingWorx to a Kepware Server to model, configure, and bind tags that exist in ThingWorx Kepware Server to Things in the ThingWorx model. |
+
 
 ## Other Edge Devices
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
