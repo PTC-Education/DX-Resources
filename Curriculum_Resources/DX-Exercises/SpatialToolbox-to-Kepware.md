@@ -72,16 +72,20 @@ The Spatial Toolbox uses OPCUA to communicate with Kepware. Once the server is r
 
 #### Configure OPC UA in Kepware 
 - To Add an OPC server in the Kepware configuration, open OPC UA Configuration from the Kepware config tray icon:
+
 ![Kepware config tray icon](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/Kepware-VST-001.png)
 
 - Choose the correct adapter (probably wifi, and set a port, or use default. This IP and port will be used in the in the VST edge server Kepware addon configuration.
+
 ![Kepware OPC UA Endpoint Definition](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/Kepware-VST-002.png)
 - Close window with OK
 
 - Create an OPCUA user; open Settings from the Kepware config tray icon:
+
 ![Kepware config tray icon](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/Kepware-VST-003.png)
 
 - Create an Admin User with the Kepware (ThingWorx Industrial Connectivity) Settings Control Panel:
+
 ![Kepware (ThingWorx Industrial Connectivity) Settings Control Panel](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/Kepware-VST-004.png)
 - Save and close
 
@@ -94,6 +98,7 @@ The Spatial Toolbox uses OPCUA to communicate with Kepware. Once the server is r
 #### Restart VST Edge server
     - In the terminal where you started it, click 'CTRL-C' to stop it, and then enter 'node server' to start it again
 - Re-open the OPC UA Configuration from the Kepware config tray icon to Trust the rejected certificate:
+
 ![OPC UA Configuration Manager, Trusted Clients Tab:](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/Kepware-VST-006.png)
 - Click Close and restart VST Edge Server again, and refresh the server web page
 
