@@ -5,7 +5,7 @@
  - An Ethernet Cable  
  - Windows Computer (This tutorial and testing utilized an Intel NUC)  
 
-## Setting up the PLC 
+## Set up the PLC 
 
 ### Micro850 
 Install [Connected Components Workbench (CCW)](https://compatibility.rockwellautomation.com/Pages/MultiProductFindDownloads.aspx?crumb=112&refSoft=1&toggleState=&versions=57681), following [these instructions](https://www.youtube.com/watch?v=BU7O8KXfdPA&ab_channel=TimWilborne) from 2:39-8min to configure the PLC with CCW. 
@@ -13,19 +13,19 @@ Install [Connected Components Workbench (CCW)](https://compatibility.rockwellaut
 ### CompactLogix5480
 For the CompactLogix5480, install Rockwell Automation Studio 5000 Logix Designer. We used [these lessons](https://twcontrols.com/lessons/how-to-connect-to-an-allen-bradley-controllogix-plc-over-ethernet-with-studio-5000-and-rslinx) to connect to and configure our CompactLogix5480.
 
-### Test with a simple program
+#### Test with a simple program
 
 Once your device is connected anad you can create a program, make a simple "Hello World" that will activate some of outputs on the PLC. A possible demo could be to use the Timer (TON) within CCW to turn your outputs on and off repeatedly. Here's an example: 
  - [This video shows the process of using the TON with CCW](https://www.youtube.com/watch?v=CI7o78YogGw&ab_channel=InsightsInAutomation).
  - [This PDF shows the ladder logic](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/Traffic-Light-Demo-withWalk.pdf) for a graffic light demo made in Studio 5000 Logix Designer.
 
-### Setting up Networking
+## Set up Networking
 
 This project used the ethernet (wired) port to create a local network to communicate to the PLC, and leveraged the wireless network for outbound/internet communications. 
 - For the wireless connection, a static or dynammic IP will work. 
 - For the wired connection, we gave the computer a static ethernet IP Address: 192.168.0.1; Subnet Mask: 255.255.255.0; Default Gateway and Primary DNS were set to match the gateway and DNS for the wireless connection.
 
-### Set the Micro850 IP address 
+### Set the Micro850 IP address
 Click on the `Micro850` tab in CCW and select `Ethernet` on the bottom right. Once selected, scroll down on the right side and select “Configure IP address and settings” underneath **Internet Protocol (IP) Settings**.  
  - Adjust the IP to your settings. For us, we set the IP Address to 192.168.0.2, the Subnet Mask to 255.255.255.0, and the Gateway Address to 192.168.0.1 
 
@@ -34,7 +34,7 @@ For the CompactLogix5480, we used RSLinx to set the Ethernet IP Address to 192.1
 
 **To verify that the PLC should is connected to your Windows Computer, [ping](https://en.wikipedia.org/wiki/Ping_(networking_utility)) the IP address from the command prompt on the computer with ping 192.168.0.2, if the response is some number of ms, they are connected.
 
-## Connecting the PLC to Kepware 
+## Connects the PLC to Kepware 
 
 [Download KEPServerEX](https://www.kepware.com/en-us/content-gates/ex-demo-download-content-gate/?product=d2239b8c-36f2-4d07-8fbd-e223d0e26bbf&gate=8a5e8dd5-6edf-4d68-aa36-72f97b11e612) -- this is a free trial, but is fully functional; KEPServerEX will run for 2 hours at a time, then it needs to be restarted. Note, this product is also called "ThingWorx Indsutrical Connectivity".
 [Download Java](https://java.com/en/download/manual.jsp)
