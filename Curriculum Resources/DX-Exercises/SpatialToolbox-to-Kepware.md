@@ -7,10 +7,10 @@
 
 ## Setting up the PLC 
 
-###Micro850 
+### Micro850 
 Install [Connected Components Workbench (CCW)](https://compatibility.rockwellautomation.com/Pages/MultiProductFindDownloads.aspx?crumb=112&refSoft=1&toggleState=&versions=57681), following [these instructions](https://www.youtube.com/watch?v=BU7O8KXfdPA&ab_channel=TimWilborne) from 2:39-8min to configure the PLC with CCW. 
 
-###CompactLogix5480
+### CompactLogix5480
 For the CompactLogix5480, install Rockwell Automation Studio 5000 Logix Designer. We used [these lessons](https://twcontrols.com/lessons/how-to-connect-to-an-allen-bradley-controllogix-plc-over-ethernet-with-studio-5000-and-rslinx) to connect to and configure our CompactLogix5480.
 
 ### Test with a simple program
