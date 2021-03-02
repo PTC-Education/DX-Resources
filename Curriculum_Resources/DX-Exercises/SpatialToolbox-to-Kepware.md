@@ -54,8 +54,6 @@ To test the connection between your PLC and Kepware:
 ## ![Quick Client Button"](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/VST-PLC-image002.png)
  - Once this is clicked, it should open a new window. Select <b>Chanel1."name of your PLC"</b>, The quality should be labeled as "Good" and once your program on CCW runs (or if it is already running) you should see the value update.<br/><br/>
 
-## ![Quick Client Panel](https://github.com/PTC-Academic/DX-Resources/blob/master/Curriculum_Resources/DX-Exercises/Resources/VST-PLC-image003.png)
-
 ### CompactLogix5480 and Studio 5000
 [This Kepware guide](https://www.kepware.com/getattachment/7ce5cce5-7186-4159-88f0-413980a956ae/ab-controllogix-ethernet-easy-guide.pdf) walks through the same steps for Studio 5000. 
 
