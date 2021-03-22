@@ -22,6 +22,11 @@
 |---|---|
 | [UAS Technikum Wien's Horst Orsolits Webinar](https://players.brightcove.net/1532789042001/default_default/index.html?videoId=6142604345001) | Head of Competence Center Virtual Technologies & System Engineering discusses strategies for intrating IoT and AR in research and teaching |
 
+## Augmented Reality in Education
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
+|---|---|
+| [MIT's John Liu Webinar](https://ptc.zoom.us/rec/play/T1t6RS5EcwX0QMU7vXy_wh8kB2HZ2MWihyreRBnu2azYDAG41r4_oPZjWoPvQHVoWhx8MqbMbivBXjYa.u1LjiNKpyRFUxEWN?autoplay=true&startTime=1616417643000) | Lecturer and scientist in the Mechanical Engineering department at MIT who leads a group in the Digital Learning Lab discusses the protential of using AR to teach complex concepts and train the workforce of the future |
+
 ## Research in Spatial Computing
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 |---|---|
