@@ -14,7 +14,7 @@
 ## Design Education
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 |---|---|
-| [University of Toronto's Alison Olechowski Webinar](https://ptc.zoom.us/rec/share/vNP7ZTrSXW7aOlbn_rW464rklJYLjyjAK98BpmXj0hogyblewNR1hXTcjwd93uOR.l5F6X6SdXsaj1QKB?startTime=1614002103000) | Dr. Alison Olechowski presented the findings from a series of experiments which explore new ways of designing collaboratively in CAD. These experiments consider not only design outcomes like quality and speed, but also designer emotion. Further, she shared preliminary results which indicate that collaborative CAD tools can open new opportunities for the way we teach and learn to design with CAD.|
+| [University of Toronto's Alison Olechowski Webinar](https://www.youtube.com/watch?v=z35y07ozh3A) | Dr. Alison Olechowski presented the findings from a series of experiments which explore new ways of designing collaboratively in CAD. These experiments consider not only design outcomes like quality and speed, but also designer emotion. Further, she shared preliminary results which indicate that collaborative CAD tools can open new opportunities for the way we teach and learn to design with CAD.|
 | [Purdue University's Karthik Ramani Webinar](https://players.brightcove.net/1532789042001/default_default/index.html?videoId=6155014476001) | Mechanical Engineering professor talks about teaching engineering design to university students by having them build toys|
 
 ## Digital Twin Strategies
@@ -25,7 +25,7 @@
 ## Augmented Reality in Education
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 |---|---|
-| [MIT's John Liu Webinar](https://ptc.zoom.us/rec/share/ZRfi-nB0Ueac-7VmdkUhLiY9Ib2mBK9xtUpnaSMeeaMuwgqpQnfWAPwFpJPtsor3.KiSzor_0X-ofbkDJ?startTime=1616417643000) | Lecturer and scientist in the Mechanical Engineering department at MIT who leads a group in the Digital Learning Lab discusses the protential of using AR to teach complex concepts and train the workforce of the future |
+| [MIT's John Liu Webinar](https://www.youtube.com/watch?v=cD8XsqNefMw) | Dr. John Liu, a lecturer and scientist in the Mechanical Engineering department at MIT who leads a group in the Digital Learning Lab, discusses the protential of using AR to teach complex concepts and train the workforce of the future |
 
 ## Research in Spatial Computing
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
